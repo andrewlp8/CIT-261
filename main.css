@@ -142,3 +142,14 @@ iframe {
   height: 100%;
   clear: both;
 }
+.containerTwo {
+  width: 80%;
+  margin: 0 auto;
+}
+.containerThree {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}

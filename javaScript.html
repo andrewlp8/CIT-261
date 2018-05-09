@@ -1,37 +1,153 @@
 <!DOCTYPE html>
-
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8" />
     <title>JavaScript</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script type-="text/javascript">
+
+  	// For Loop
+    function forLoopEx() {
+  		var row = "";
+  		for (i=1; i <= 10; i++) {
+  			row += "5 x " + i + " = " + (5 * i) + "<br/>";
+  		}
+
+  		document.getElementById('forLoopOutputDiv').innerHTML = row;
+  	}
+
+    // Switch Statement
+    function switchEx() {
+    // Get the user input from a text field
+    var answer = document.getElementById('switchInputBox').value;
+
+    var response;
+    switch(answer) {
+        case "yes":
+            response = "That is great, Keep up the good work!";
+            break;
+        case "Yes":
+            response = "That is great, Keep up the good work!";
+            break;
+        case "no":
+            response = "That's too bad. I'm sure with effort and prayer you will do well.";
+            break;
+        case "No":
+            response = "That's too bad. I'm sure with effort and prayer you will do well.";
+            break;
+        default:
+            response = "Well, alright then!";
+    }
+    document.getElementById('switchOutputDiv').innerHTML = response;
+    }
+
+    // If Else Condition Code
+    function conditionEx() {
+      var num = document.getElementById('conditionInputBox').value;
+      var response = "";
+  		if (num < 20){
+  		   response = "The number you chose, '" + num + "' is less than 20";
+  		}
+  		else if (num > 20){
+  		   response = "The number you chose, '" + num + "' is greater than 20";
+  		}
+  		else {
+  		   response = "The number you chose, '" + num + "' is equal to 20";
+  		}
+
+  		document.getElementById('conditionOutputDiv').innerHTML = response;
+    }
+
+   </script>
 </head>
+
 <body>
-  <div id="wholeContainer">
+<div id="wholeContainer">
+
   <div class="containerOne">
     <h1>Andrew Petersen</h1>
     <h3>JavaScript</h3>
   </div>
-<div class="menu">
-  <nav>
-    <ul>
-      <li><a id="home" href="javaScriptObjects.html">Next</a></li>
-      <li><a id="home" href="portfolio.html">Previous</a></li>
-      <li><a id="home" href="index.html">Back to Home</a></li>
-    </ul>
-  </nav>
-</div>
 
-<div class="containerOne">
-<h4>JavaScript– Loops, Conditional Statements, Functions, Arrays</h4>
-<p>Show me examples using the language. This is often just code of code sake. But show me you can use a for loop, switch statement, conditional code. Create and use functions. Iterate through an array. Use and add to an associative array.</p>
-</div>
-
+  <div class="menu">
+    <nav>
+      <ul>
+        <li><a class="home" href="javaScriptObjects.html">Next</a></li>
+        <li><a class="home" href="portfolio.html">Previous</a></li>
+        <li><a class="home" href="index.html">Back to Home</a></li>
+      </ul>
+    </nav>
   </div>
-    <footer>
-        <p>Andrew Petersen - CIT 261</p>
 
-    </footer>
+  <div class="containerOne">
+    <h4>JavaScript– Loops, Conditional Statements, Functions, Arrays</h4>
+    <p>Show me examples using the language. This is often just code of code sake. But show me you can use a for loop, switch statement, conditional code. Create and use functions. Iterate through an array. Use and add to an associative array.</p>
+  </div>
+
+  <div class="containerTwo">
+
+<br><br/>
+
+    <h4>For Loop</h4>
+      <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement">for loop</a> repeats until a specified condition evaluates to false.</p>
+
+      <div class="containerThree">
+        <h5>Syntax</h5>
+        <img src="images/JavaScript/forLoopSyntax.jpg" alt="syntax for loop">
+        <h5>Example</h5>
+        <img src="images/JavaScript/forLoopEx.jpg" alt="Example for loop"><br><br/>
+        <p>The button below will display the results of this example.</p>
+        <button type="button" onclick="forLoopEx()">5 Times Table</button>
+        <div id="forLoopOutputDiv"></div>
+      </div>
+
+<br><br/>
+
+    <h4>Switch Statements</h4>
+    <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch">switch statement</a> evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case, as well as statements in cases that follow the matching case.</p>
+
+    <div class="containerThree">
+      <h5>Syntax</h5>
+      <img src="images/JavaScript/switchSyntax.jpg" alt="syntax for loop">
+      <h5>Example</h5>
+      <img src="images/JavaScript/switchEx.jpg" alt="Example for loop"><br><br/>
+      Are you enjoying this class? <input type="text" id="switchInputBox">
+      <button type="button" onclick="switchEx()">Get Response</button><br/>
+      <br/>
+      <div id="switchOutputDiv"></div>
+    </div>
+
+    <br><br/>
+
+    <h4>Conditional Code</h4>
+    <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">if statement</a> executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.</p>
+
+    <div class="containerThree">
+      <h5>Syntax</h5>
+      <img src="images/JavaScript/conditionSyntax.jpg" alt="syntax for loop">
+      <h5>Example</h5>
+      <img src="images/JavaScript/conditionEx.jpg" alt="Example for loop"><br><br/>
+      Pick a number, any number: <input type="text" id="conditionInputBox"><br/>
+      <button type="button" onclick="conditionEx()">Find Out What I Know</button>
+      <br/>
+      <div id="conditionOutputDiv"></div>
+    </div>
+
+    <br><br/>
+
+    <h4>Functions</h4>
+
+    <br><br/>
+
+    <h4>Arrays</h4>
+  </div>
+
+</div>
+
+  <footer>
+      <p>Andrew Petersen - CIT 261</p>
+  </footer>
 
 </body>
 </html>
