@@ -59,6 +59,16 @@
   		document.getElementById('conditionOutputDiv').innerHTML = response;
     }
 
+    // Function Demo
+    function myFunction(a, b) {
+      var a = document.getElementById('aInputBox').value;
+      var b = document.getElementById('bInputBox').value;
+
+      var ans = a * b;
+
+      document.getElementById('functionOutputDiv').innerHTML = ans;
+    }
+
    </script>
 </head>
 
@@ -138,6 +148,23 @@
     <br><br/>
 
     <h4>Functions</h4>
+    <p><a href="">Functions</a> are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.</p>
+
+    <div class="containerThree">
+      <h5>Syntax</h5>
+      <img src="images/JavaScript/functionSyntax.JPG" alt="syntax for loop">
+      <h5>Example</h5>
+      <img src="images/JavaScript/functionEx.JPG" alt="Example for loop"><br><br/>
+
+
+
+      What two numbers do you want to multiply: <input type="text" id="aInputBox" placeholder="First Number"><input type="text" id="bInputBox" placeholder="Second Number">
+      <button type="button" onclick="myFunction()">Click ME</button>
+      <div id="functionOutputDiv"></div>
+
+
+    </div>
+
 
     <br><br/>
 
