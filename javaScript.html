@@ -59,14 +59,35 @@
   		document.getElementById('conditionOutputDiv').innerHTML = response;
     }
 
-    // Function Demo
-    function myFunction(a, b) {
+    // Function Demo Code
+    function myFunction() {
       var a = document.getElementById('aInputBox').value;
       var b = document.getElementById('bInputBox').value;
 
       var ans = a * b;
 
       document.getElementById('functionOutputDiv').innerHTML = ans;
+    }
+
+    // Array Demo Codes
+    function arrExShopping() {
+
+      var shoppingList = ['Milk', 'Eggs', 'Butter', 'Bread', 'Notice how the list starts at 0, that is beginning count in arrays!'];
+      var listShopping = "";
+      for (var i = 0; i < shoppingList.length; i++) {
+        listShopping +=  i + ". " + shoppingList[i] + "<br/>";
+      }
+      document.getElementById('shoppingListOutputDiv').innerHTML = listShopping;
+    }
+
+    function arrExNums() {
+
+      var numArr = [10, 2, 65, 23, 5, 'A', 'B', 'c', 'd'];
+      var listNum = "";
+      for (var i = 0; i < numArr.length; i++) {
+        listNum += numArr[i] + "<br/>";
+      }
+      document.getElementById('numListOutputDiv').innerHTML = listNum;
     }
 
    </script>
@@ -156,19 +177,34 @@
       <h5>Example</h5>
       <img src="images/JavaScript/functionEx.JPG" alt="Example for loop"><br><br/>
 
-
-
       What two numbers do you want to multiply: <input type="text" id="aInputBox" placeholder="First Number"><input type="text" id="bInputBox" placeholder="Second Number">
       <button type="button" onclick="myFunction()">Click ME</button>
       <div id="functionOutputDiv"></div>
 
-
     </div>
-
 
     <br><br/>
 
     <h4>Arrays</h4>
+    <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a> object is a global object that is used in the construction of arrays; which are high-level, list-like objects.</p>
+
+    <div class="containerThree">
+      <h5>Syntax</h5>
+      <img src="images/JavaScript/arraySyntax.JPG" alt="syntax for loop">
+
+      <h5>Example</h5>
+      <img src="images/JavaScript/arrayEx.JPG" alt="Example for loop"><br><br/>
+
+     <button type="button" onclick="arrExShopping()">Shopping List</button>
+      <div id="shoppingListOutputDiv"></div><br><br/>
+
+      <button type="button" onclick="arrExNums()">Numbers and Letters</button>
+       <div id="numListOutputDiv"></div>
+
+    </div>
+
+    <br><br/>
+
   </div>
 
 </div>
