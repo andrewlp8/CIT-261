@@ -52,8 +52,11 @@
   		else if (num > 20){
   		   response = "The number you chose, '" + num + "' is greater than 20";
   		}
+      else if (num == 20) {
+        response = "The number you chose, '" + num + "' is equal to 20"
+      }
   		else {
-  		   response = "The number you chose, '" + num + "' is equal to 20";
+  		   response = "Please enter a valid number.";
   		}
 
   		document.getElementById('conditionOutputDiv').innerHTML = response;
