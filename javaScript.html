@@ -69,25 +69,46 @@
       document.getElementById('functionOutputDiv').innerHTML = ans;
     }
 
-    // Array Demo Codes
+    // Array Demo Code 1
     function arrExShopping() {
+                            // Index  0       1       2         3          4
+      var shoppingList = new Array('Milk', 'Eggs', 'Butter', 'Bread', 'Notice' +
+                'how the list starts at 0, that is beginning count in arrays!');
 
-      var shoppingList = ['Milk', 'Eggs', 'Butter', 'Bread', 'Notice how the list starts at 0, that is beginning count in arrays!'];
       var listShopping = "";
       for (var i = 0; i < shoppingList.length; i++) {
         listShopping +=  i + ". " + shoppingList[i] + "<br/>";
       }
-      document.getElementById('shoppingListOutputDiv').innerHTML = listShopping;
+      document.getElementById('shoppingListOutputDiv').innerHTML = listShopping
+                              + "shoppingList[0] = " + shoppingList[0] + "<br>";
     }
 
+    // Array Demo Code 2
     function arrExNums() {
-
+           // Index  0  1   2  3   4   5    6    7    8
       var numArr = [10, 2, 65, 23, 5, 'A', 'B', 'c', 'd'];
+      var length = numArr.length;
       var listNum = "";
       for (var i = 0; i < numArr.length; i++) {
         listNum += numArr[i] + "<br/>";
       }
-      document.getElementById('numListOutputDiv').innerHTML = listNum;
+      document.getElementById('numListOutputDiv').innerHTML = "Array length = "
+                                                    + length + "<br>" + listNum;
+    }
+
+    // Associative Array Demo Code
+    function associateArr() {
+      var person = new Array();
+      person[0] = "John";
+      person[1] = "Smith";
+      person[3] = "56";
+      var first = person[0];
+      var last = person[1];
+      var age = person[3];
+
+      document.getElementById('associateOutputDiv').innerHTML = "Hello Mr " +
+        last + ". We are glad you joined us here " + first + ". You are in lu" +
+        "ck, since you are " + age + ", you win the prize!";
     }
 
    </script>
@@ -113,7 +134,7 @@
 
   <div class="containerOne">
     <h4>JavaScript– Loops, Conditional Statements, Functions, Arrays</h4>
-    <p>Show me examples using the language. This is often just code of code sake. But show me you can use a for loop, switch statement, conditional code. Create and use functions. Iterate through an array. Use and add to an associative array.</p>
+    <p>Notes from teacher - Show me examples using the language. This is often just code of code sake. But show me you can use a for loop, switch statement, conditional code. Create and use functions. Iterate through an array. Use and add to an associative array.</p>
   </div>
 
   <div class="containerTwo">
@@ -198,8 +219,27 @@
      <button type="button" onclick="arrExShopping()">Shopping List</button>
       <div id="shoppingListOutputDiv"></div><br><br/>
 
+      <img src="images/JavaScript/arrayExTwo.JPG" alt="Example for loop"><br><br/>
       <button type="button" onclick="arrExNums()">Numbers and Letters</button>
        <div id="numListOutputDiv"></div>
+
+    </div>
+
+    <br><br/>
+
+    <h4>Associative Arrays</h4>
+    <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a> object is a global object that is used in the construction of arrays; which are high-level, list-like objects.</p>
+    <br/>
+
+    <p>Associates basically a word instead of a number.</p>
+
+    <div class="containerThree">
+
+      <h5>Example</h5>
+      <img src="images/JavaScript/assArrayEx.JPG" alt="Example for loop"><br><br/>
+
+     <button type="button" onclick="associateArr()">Click Me</button>
+    <div id="associateOutputDiv"></div>
 
     </div>
 
