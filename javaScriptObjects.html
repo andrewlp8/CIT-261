@@ -5,6 +5,103 @@
     <meta charset="utf-8" />
     <title>JavaScript Objects</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript">
+
+      // OBJECT CREATION
+      // basic object
+    function basicObjectEx() {
+        var customer = {
+          // define properties
+          name: "Tom Smith",
+          // define function
+          speak: "My name is ", // this.value;
+          // add another object inside of it
+          address: {
+            street: '123 Main St',
+            city: "Pittsburgh",
+            state: "PA"
+          }
+        };
+      document.getElementById('basicObjectOutputDiv').innerHTML = customer.speak + customer.name + ", I live at " + customer.address.street;
+    }
+
+      // using a constructor function
+    function usingConstructorEx() {
+      function Dog(breed, name, age, owner) {
+        // use 'this' to assign values
+        this.breed = breed;
+        this.name = name;
+        this.age = age;
+        this.owner = owner
+      }
+      function Person(name, age, sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+      }
+      document.getElementById('usingConstructorOutputDiv').innerHTML = "The " + Dog.breed + "'s " + Dog.owner + " is, " + Person.age + " years old."+ "<br />It will come out undefined as no value has been set to it yet.";
+}
+
+
+function propertiesEx() {
+      // PROPERTIES
+      // Example
+      var myCar = new Object();
+      myCar.make = 'Toyota';
+      myCar.model = 'Prius C';
+      myCar.year = 2012;
+
+      document.getElementById('propertiesOutputDiv').innerHTML = "My car is a " + myCar.year + " " + myCar.make + " " + myCar.model;
+}
+
+function addPropertiesEx() {
+      var myCar = new Object();
+
+      // Example Add Properties
+      myCar.color = "Black";
+
+      document.getElementById('addPropertiesOutputDiv').innerHTML = "Oh, and it is " + myCar.color;
+    }
+
+    function methodsEx(myCar) {
+        var myCar = new Object();
+      // METHODS
+      // Example Object.create method
+      var myPrius = Object.create(myCar);
+      myPrius.name = "Electric Beast";
+
+      document.getElementById('methodOutputDiv').innerHTML = "I sometimes call it my " + myPrius.name;
+}
+
+function instantiationEx() {
+  function Dog(breed, name, age, owner) {
+    // use 'this' to assign values
+    this.breed = breed;
+    this.name = name;
+    this.age = age;
+    this.owner = owner
+  }
+  function Person(name, age, sex) {
+    this.name = name;
+    this.age = age;
+    this.sex = sex;
+  }
+      // INSTANTIATION
+      // instantiate new objects for Person()
+      var andrew = new Person('Andrew', '28', 'Male');
+      var paige = new Person('Paige', '24', 'Female');
+      var josh = new Person('Josh', '29', 'Male');
+
+      // instantiate new objects for Dog()
+      var sistersDog = new Dog('Golden Retriever', 'Michael Scott', '8 months', paige);
+      var myDog = new Dog('Chaweenie dog', 'Molly', '2 yrs', andrew);
+      var friendsDog = new Dog('Lab', 'Rex', '4 yrs', josh);
+
+      document.getElementById('instantiationOutputDiv').innerHTML = "I have listed 3 people, " + andrew.name + " who is " + andrew.sex + ", " + paige.name + " who is " + paige.sex + ", and " + josh.name + " who is " + josh.sex
+      + ". <br /> My dogs name is, " + myDog.name + " she is a " + myDog.breed + ".";
+    }
+
+    </script>
 </head>
 <body>
   <div id="wholeContainer">
@@ -24,9 +121,96 @@
 
 <div class="containerOne">
 <h4>JavaScript – Object Creation Functions, Properties, Methods, Instantiation</h4>
-<p>Show me work where you create an object that contains data and functions. Use ‘new’ to create several types of that object, modify the object attributes and call the associated functions.</p>
+<p>Notes from Bro. James - Show me work where you create an object that contains data and functions. Use ‘new’ to create several types of that object, modify the object attributes and call the associated functions.</p>
 </div>
+
+<div class="containerTwo">
+
+<br><br/>
+
+  <h4>Object Creation Functions</h4>
+    <p>You can create an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"> object</a> using an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer">object initializer.</a> Alternatively, you can first create a constructor function and then instantiate an object invoking that function in conjunction with the new operator. </p>
+
+    <div class="containerThree">
+      <h5>Syntax Basic Object</h5>
+      <img src="images\JavaScriptObjects\syntaxBasicObject.png" alt="Syntax Basic Object">
+      <h5>Example Basic Object</h5>
+      <img src="images\JavaScriptObjects\exampleBasicObject.png" alt="Example Basic Object"><br><br />
+      <button type="button" onclick="basicObjectEx()">This Is What I Can Do</button>
+      <div id="basicObjectOutputDiv"></div>
+
+      <h5>Syntax Constructor Function</h5>
+      <img src="images\JavaScriptObjects\syntaxConstructorFunction.png" alt="Syntax Constructor Function">
+      <h5>Example Constructor Function</h5>
+      <img src="images\JavaScriptObjects\exampleConstructorFunction.png" alt="Example Constructor Function"><br><br />
+      <button type="button" onclick="usingConstructorEx()">This Is What I Can Do</button>
+      <div id="usingConstructorOutputDiv"></div>
+
+
+    </div>
+
+<br><br/>
+<hr>
+  <h4>Properties</h4>
+  <p>You can define a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">property</a> by assigning it a value. For example, let's create an object named myCar and give it properties named make, model, and year.</p>
+
+  <div class="containerThree">
+    <h5>Syntax Properties</h5>
+    <img src="images\JavaScriptObjects\syntaxProperties.png" alt="Syntax Properties">
+    <h5>Example Properties</h5>
+    <img src="images\JavaScriptObjects\exampleProperties.png" alt="Example Properties"><br><br />
+    <button type="button" onclick="propertiesEx()">This Is What I Can Do</button>
+    <div id="propertiesOutputDiv"></div>
+
+    <h5>Syntax Add Properties</h5>
+    <img src="images\JavaScriptObjects\syntaxAssProperties.png" alt="Syntax Add Properties">
+    <h5>Example Add Properties</h5>
+    <img src="images\JavaScriptObjects\exampleAddProperties.png" alt="Example Add Properties"><br><br />
+    <button type="button" onclick="addPropertiesEx()">This Is What I Can Do</button>
+    <div id="addPropertiesOutputDiv"></div>
+
   </div>
+
+  <br><br/>
+<hr>
+  <h4>Methods</h4>
+  <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods_of_the_Object_constructor">Methods </a>are basically different pre created functions to manipulate an object.</p>
+
+  <div class="containerThree">
+    <img src="images\JavaScriptObjects\imgMethods.png" alt="Methods">
+
+    <h5>Syntax Methods</h5>
+    <img src="images\JavaScriptObjects\syntaxMethod.png" alt="Syntax Methods">
+    <h5>Example Methods</h5>
+    <img src="images\JavaScriptObjects\exampleMethod.png" alt="Example Methods"><br><br />
+    <button type="button" onclick="methodsEx()">This Is What I Can Do</button>
+    <div id="methodOutputDiv"></div>
+
+  </div>
+
+  <br><br/>
+<hr>
+  <h4>Instantiation</h4>
+  <p>When an object instance is created from a class, the class's constructor function is run to create it. This process of creating an object instance from a class is called <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS">Instantiation</a> — the object instance is instantiated from the class.</p>
+
+  <div class="containerThree">
+    <h5>Syntax Instantiation</h5>
+    <img src="images\JavaScriptObjects\syntaxInstantiation.png" alt="Syntax Instantiation"><br><br />
+    <img src="images\JavaScriptObjects\syntaxInstantiation2.png" alt="Syntax Instantiation 2">
+    <p>I pulled this off of <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS">MDN Web Docs</a> and decided to use it for the syntax image</p>
+    <h5>Example Instantiation</h5>
+    <img src="images\JavaScriptObjects\exampleInstantiation.png" alt="Example Instantiation"><br><br />
+    <button type="button" onclick="instantiationEx()">This Is What I Can Do</button>
+    <div id="instantiationOutputDiv"></div>
+
+
+  </div>
+
+  <br><br/>
+
+</div>
+
+</div>
     <footer>
         <p>Andrew Petersen - CIT 261</p>
 
