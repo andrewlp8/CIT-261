@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>Event Pop up</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript">
+      var looper;
+      var degrees = 0;
+      function rotateAnimation(element, speed) {
+        var wheel1 = document.getElementById(element);
+
+        wheel1.style.transform = "rotate("+degrees+"deg)";
+
+        looper = setTimeout('rotateAnimation(\''+element+'\','+speed+')', speed);
+        degrees++;
+        if(degrees > 359) {
+          degrees = 1;
+        }
+        document.getElementById("status").innerHTML = "Rotation position: ("+degrees+"deg)";
+      }
+
+      function closeWindow() {
+        if (confirm("Close Window?")) {
+          close();
+        }
+}
+    </script>
+</head>
+<body>
+  <div id="wholeContainer">
+  <div class="containerOne">
+    <h1>This Pop Up has two Event Examples</h1>
+    <h2>Onload and confirm close(click close this window link)</h2>
+    <h2>My onload <span style="color: red;">Nasty Pop up</span></h2>
+    <h3>JavaScript Events</h3>
+  </div>
+  <br><br />
+
+<div class="containerOne">
+  <p>This is an example of the JavaScript onload event, just <span style="color: red;"><a href="javascript:closeWindow();">close this window when ready</a></span> and the main events page should be up and waiting.</p>
+</div>
+
+<div class="containerTwo">
+  <h4>Lovely isn't it?</h4>
+  <p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events">Events </a> are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired.</p>
+
+  <div class="containerThree">
+    <img id="img1" src="images/JavaScriptEvents/colorWheel.png" alt="rotating image" style="width: 200px;">
+    <script>rotateAnimation("img1", 15);</script>
+  </div>
+
+  <br><br/>
+</div>
+
+<footer>
+    <p>Andrew Petersen - CIT 261</p>
+</footer>
+
+</body>
+</html>
