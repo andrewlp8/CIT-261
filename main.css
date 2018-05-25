@@ -127,6 +127,18 @@ nav li, #portfolioPort {
   z-index: 2;
 }
 
+#portFrame {
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 90%;
+  border: 2px solid #0f0f0f;
+  border-radius: 4px;
+  box-shadow: 7px 6px 13px 0px rgba(50, 50, 50, 0.67);
+  padding: 0 20px;
+  clear: both;
+}
 
 
 .containerTwo {
