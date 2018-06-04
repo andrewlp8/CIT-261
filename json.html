@@ -1,20 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
     <meta charset="utf-8" />
     <title>JSON</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script type="text/javascript">
-
-
-    var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
-document.getElementById("json1OutputDiv").innerHTML = obj.name + ", " + obj.age;
-
     
-
-
-    </script>
 </head>
 <body>
   <div id="wholeContainer">
@@ -33,55 +24,78 @@ document.getElementById("json1OutputDiv").innerHTML = obj.name + ", " + obj.age;
   </div>
 <div class="containerOne">
 <h4>JSON Parse, Stringify</h4>
-<p>Build a JSON object that is MUCHmore than { name: “Bob” }. Add attributes to a JSON object. It should include arrays, arrays of JSON sub-objects, numbers and strings.<p>
+<p>Build a JSON object that is MUCH more than { name: “Bob” }. Add attributes to a JSON object. It should include arrays, arrays of JSON sub-objects, numbers and strings.<p>
 </div>
 
 <div class="containerTwo">
-  <h4>JSON</h4>
+    <h4>JSON</h4>
     <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON">JSON </a> is a syntax for serializing objects, arrays, numbers, strings, booleans, and null. It is based upon JavaScript syntax but is distinct from it: some JavaScript is not JSON, and some JSON is not JavaScript. </p>
 
+    <!-- JSON Intro -->
     <div class="containerThree">
-      <h4>Java Script Object Notation</h4>
-      <h5>Syntax</h5>
-      <img src="images\JavaScriptEvents\onLoadSyntax.png" alt="On Load Syntax">
-      <h5>Example</h5>
-      <img src="images\JavaScriptEvents\onLoadEx.png" alt="On Load Example"><br><br/>
-      <button onclick="preload()">clik</button>
-      <div id="json1OutputDiv"></div>
+        <h4>Java Script Object Notation</h4>
+        <h5>Syntax</h5>
+        <img src="images\#.png" alt="On Load Syntax">
+        <h5>Example</h5>
+        <img src="images\#.png" alt="On Load Example"><br><br />
+        <button onclick="runObj()">CLick ME</button>
+        <div id="myObj1Out"></div>
+        <script>
 
-  </div>
-<br><br/><hr>
+            function runObj() {
+                var myObj, i, j, result = "";
+                // JSON Example
+                var myObj = {
+                    "name": "Andrew",
+                    "age": 28,
+                    "vehicles": [
+                        { "type": "Airplane", "models": ["Supermarine Spitfire", "Boeing 787", "Blackbird", "Cirrus", "Cessna"] },
+                        { "type": "Helicopter", "models": ["Sikorsky", "The Bell", "Chinook", "Cobra", "Black Hawk"] },
+                        { "type": "Bus", "models": ["City Bus", "School Bus", "Magic School Bus"] },
+                        { "type": "Truck", "models": ["F-150", "GMC Sierra", "Tundra"] },
+                        { "type": "Car", "models": ["Mustang", "Corrola", "Prius", "Lambo"] },
+                        { "type": "Boat", "models": ["Speed boat", "Fishing boat", "Pontoon boat"] }
+                    ]
+                }
 
-    <div class="containerThree">
-      <h4>Adding Attributes to a JSON Object</h4>
-      <h5>Syntax</h5>
-      <img src="images\JavaScriptEvents\onLoadSyntax.png" alt="On Load Syntax">
-      <h5>Example</h5>
-      <img src="images\JavaScriptEvents\onLoadEx.png" alt="On Load Example"><br><br/>
+                // display some object attributes
+                for (i in myObj.vehicles) {
+                    result += "<h3>" + myObj.vehicles[i].type + "</h3>";
+                    for (j in myObj.vehicles[i].models) {
+                        result += myObj.vehicles[i].models[j] + "<br>";
+                    }
+                }
+                document.getElementById("myObj1Out").innerHTML = result;
+            }
+        </script>
     </div>
-<br><br/><hr>
+    <br><br /><hr>
 
     <div class="containerThree">
-      <h4>Arrays of JSON Sub-objects</h4>
-      <h5>Syntax</h5>
-      <img src="images\JavaScriptEvents\onLoadSyntax.png" alt="On Load Syntax">
-      <h5>Example</h5>
-      <img src="images\JavaScriptEvents\onLoadEx.png" alt="On Load Example"><br><br/>
+        <h4>JSON Parse</h4>
+        <p>Use the JavaScript function JSON.parse() to convert text into a JavaScript object</p>
+        <h5>Syntax</h5>
+
+        <p id="demo"></p>
+
+        
+        <img src="images\#.png" alt="On Load Syntax">
+        <h5>Example</h5>
+        <img src="images\#.png" alt="On Load Example"><br><br />
     </div>
-<br><br/><hr>
+    <br><br /><hr>
 
     <div class="containerThree">
-      <h4>Arrays of JSON Numbers and Strings</h4>
-      <h5>Syntax</h5>
-      <img src="images\JavaScriptEvents\onLoadSyntax.png" alt="On Load Syntax">
-      <h5>Example</h5>
-      <img src="images\JavaScriptEvents\onLoadEx.png" alt="On Load Example"><br><br/>
+        <h4>JSON Stringify</h4>
+        <p>To send data as JSON</p>
+        <h5>Syntax</h5>
+        <img src="images\#.png" alt="On Load Syntax">
+        <h5>Example</h5>
+        <img src="images\#.png" alt="On Load Example"><br><br />
     </div>
-<br><br/><hr>
+    <br><br /><hr>
 
-
-
-  </div>
+</div>
 </div>
     <footer>
         <p>Andrew Petersen - CIT 261</p>
