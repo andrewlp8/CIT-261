@@ -6,11 +6,7 @@
     <title>Local Storage API</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <style>
-        /* Set the size of the div element that contains the map */
-        #map {
-            height: 400px; /* The height is 400 pixels */
-            width: 100%; /* The width is the width of the web page */
-        }
+       
     </style>
 </head>
 <body>
@@ -38,47 +34,7 @@
       <!-- <p>watch<a href="https://www.youtube.com/watch?v=T9GWHFDcELQ"> this </a> later</p>
     -->
 
-      <h3>My Google Maps Demo</h3>
-      <!--The div element for the map -->
-      <div id="map"></div><br />
-      <h4>Want to play? Where are you going to ona mission</h4>
-      <button width="400px" onclick="initMap()">Let's Find Out!</button>
-      <script>
-
-          // Initialize and add the map
-          function initMap() {
-
-              function getRandomLat(from, to, fixed) {
-                  return (Math.random() * (to - from) + from).toFixed(fixed) * 1;
-                  // .toFixed() returns string, so ' * 1' is a trick to convert to number
-              }
-              function getRandomLong(from, to, fixed) {
-                  return (Math.random() * (to - from) + from).toFixed(fixed) * 1;
-                  // .toFixed() returns string, so ' * 1' is a trick to convert to number
-              }
-              // The location of Uluru
-              var location = { lat: getRandomLat(-80, 80, 3), lng: getRandomLong(-160, 160, 3) };
-              // The map, centered at location
-              var map = new google.maps.Map(
-                  document.getElementById('map'), { zoom: 10, center: location });
-              // The marker, positioned at location
-              var marker = new google.maps.Marker({ position: location, map: map });
-
-          }
-
-
-
-          //get weather
-          
-
-      </script>
-
-
-      <script async defer
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
-
-
-      </script>
+      
 
 
 

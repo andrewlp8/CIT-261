@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
@@ -7,26 +7,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <script>
 
-    var animalContainer = document.getElementById("animal-info");
-    var btn = document.getElementById("btn");
+        var loadMyObj = function () {            var xhttp = new XMLHttpRequest();            xhttp.onreadystatechange = function () {                if (this.readyState == 4 && this.status == 200) {                    document.getElementById("LoadOut").innerHTML = this.responseText;                }            };            xhttp.open("GET", "JSONFile.json", true);            xhttp.send();        }
 
-      btn.addEventListener("click", function() {
-      var ourRequest = new XMLHttpRequest();
-      ourRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-1.json');
-      ourRequest.onLoad = function() {
-        var ourData = JSON.parse(ourRequest.responseText);
-        renderHTML(ourData);
-      };
-      ourRequest.send();
-    });
-
-    function renderHTML(data) {
-      var htmlString = "";
-      for (i=0; i < data.length; i++) {
-        htmlString += "<p>" + data[i].name + " is a " + data[i].species + ".</p>";
-      }
-      animalContainer.insertAdjacentHTML('beforeend', htmlString);
-    }
 
 
     </script>
@@ -59,9 +41,9 @@
   <div class="containerThree">
     <h4>JSON and AJAX</h4>
     <a href="https://www.youtube.com/watch?v=rJesac0_Ftw">watch this later</a>
-    <button id="btn">Fetch info for new animals</button>
+    <button onclick="loadMyObj">Fetch info for new animals</button>
 
-    <div id="animal-info"></div>
+    <div id="loadOut"></div>
 
 
 </div>

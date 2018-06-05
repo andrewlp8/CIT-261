@@ -1,2 +1,31 @@
-
+{
+  "age": 28,
+  "name": "Andrew",
+  "vehicles": [
+    {
+      "type": "Airplane",
+      "models": [ "Supermarine Spitfire", "Boeing 787", "Blackbird", "Cirrus", "Cessna" ]
+    },
+    {
+      "type": "Helicopter",
+      "models": [ "Sikorsky", "The Bell", "Chinook", "Cobra", "Black Hawk" ]
+    },
+    {
+      "type": "Bus",
+      "models": [ "City Bus", "School Bus", "Magic School Bus" ]
+    },
+    {
+      "type": "Truck",
+      "models": [ "F-150", "GMC Sierra", "Tundra" ]
+    },
+    {
+      "type": "Car",
+      "models": [ "Mustang", "Corrola", "Prius", "Lambo" ]
+    },
+    {
+      "type": "Boat",
+      "models": [ "Speed boat", "Fishing boat", "Pontoon boat" ]
+    }
+  ]
+}
 
