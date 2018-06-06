@@ -7,10 +7,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <script>
 
-        var myRequest = new XMLHttpRequest();        myRequest.open('GET', 'https://github.com/Petersen-Andrew/CIT-261/blob/master/JSONFile.json');        myRequest.onload = function () {            console.log(myRequest.responseText);            };                    myRequest.send();        
-
-
-
+        var myRequest = new XMLHttpRequest();        myRequest.open('GET', 'https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/JSONFile.txt');        myRequest.onload = function () {            console.log(myRequest.responseText);            };                    myRequest.send();
     </script>
 
 
@@ -40,10 +37,7 @@
 
   <div class="containerThree">
     <h4>JSON and AJAX</h4>
-    <a href="https://www.youtube.com/watch?v=rJesac0_Ftw">watch this later</a>
-    <button onclick="loadMyObj">Fetch info for new animals</button>
-
-    <div id="loadOut"></div>
+    <a href="https://www.youtube.com/watch?v=rJesac0_Ftw">watch this later</a><br />
 
 
 </div>
