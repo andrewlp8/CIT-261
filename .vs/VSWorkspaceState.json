@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\images",
+    "\\images\\AJAX",
+    "\\images\\api"
   ],
-  "SelectedNode": "\\api.html",
+  "SelectedNode": "\\json.html",
   "PreviewInSolutionExplorer": false
 }

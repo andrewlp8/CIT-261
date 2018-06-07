@@ -31,12 +31,62 @@
 </div>
 
   <div class="containerTwo">
-      <!-- <p>watch<a href="https://www.youtube.com/watch?v=T9GWHFDcELQ"> this </a> later</p>
-    -->
-
       
+      <h3>Local Storage</h3>
+      <p>sessionStorage maintains a separate storage area for each given origin that's available for the duration of the page session (as long as the browser is open, including page reloads and restores)</p>
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API">localStorage </a>does the same thing, but persists even when the browser is closed and reopened.</p>
+      <h4>Syntax</h4>
+      <img src="images\api\syntax.png" alt="local storage syntax"/><br />
+      
+      <h4>Storing and Retrieving Data</h4>
+      <div class="containerThree">
+          
 
+          <h5>Example</h5>
+          <fieldset>
+              <legend>Enter Data</legend>
+              <input type="text" placeholder="Enter key:" id="keyInp"><br>
+              <input type="text" placeholder="Enter value: " id="valueInp"><br>
+              <button type="button" id="subm">Enter data</button>
+          </fieldset>
 
+          <fieldset>
+              <legend>Data Results</legend>
+              <div style="padding: 20px;" id="formResults"></div>
+              <button type="button" id="clearBtn">Clear All data</button>
+          </fieldset>
+           
+          <script>
+              const inKey = document.getElementById('keyInp');
+              const inValue = document.getElementById('valueInp');
+              const submitBtn = document.getElementById('subm');
+              const output = document.getElementById('formResults');
+              const clearIt = document.getElementById('clearBtn');
+
+              submitBtn.onclick = function () {
+                  const key = inKey.value;
+                  const value = inValue.value;
+
+                  if (key && value) {
+                      localStorage.setItem(key, value);
+                      location.reload();
+                  }
+
+              };
+
+              for (let i = 0; i < localStorage.length; i++) {
+                  const key = localStorage.key(i);
+                  const value = localStorage.getItem(key);
+
+                  output.innerHTML += `${key}: ${value}<br />`;
+              }
+
+              clearIt.onclick = function () {
+                  localStorage.clear();
+                  location.reload();
+              }
+          </script>
+      </div><br /><hr />
 
   </div>
 

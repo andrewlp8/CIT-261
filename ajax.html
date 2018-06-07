@@ -9,8 +9,29 @@
 
 
             // AJAX Example
-            var myRequest = new XMLHttpRequest();            myRequest.open('GET', 'https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/JSONFile.json');            myRequest.onload = function () {                var myData = JSON.parse(myRequest.responseText);                var forDisplay = '';                var type = (myData.vehicles[1].type);                for (var i = 0; i < myData.vehicles[1].models.length; i++) {                    forDisplay += myData.vehicles[1].models[i] + "<br/>";                    
-                }                document.getElementById('divOut').innerHTML = "<h4>" + type + "</h4>" + forDisplay;                                    };            myRequest.send();   
+            var myRequest = new XMLHttpRequest();
+            myRequest.open('GET', 'https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/JSONFile.json');
+            myRequest.onload = function () {
+                var myData = JSON.parse(myRequest.responseText);
+                var forDisplay = '';
+                var type = (myData.vehicles[1].type);
+
+                for (var i = 0; i < myData.vehicles[1].models.length; i++) {
+                    forDisplay += myData.vehicles[1].models[i] + "<br/>";
+                    
+                }
+
+                document.getElementById('divOut').innerHTML = "<h4>" + type + "</h4>" + forDisplay;
+                
+
+        
+            };
+
+            myRequest.send();
+
+
+
+   
     </script>
 
 
