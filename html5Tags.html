@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
@@ -7,26 +7,66 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <div id="wholeContainer">
-  <div class="containerOne">
-    <h1>Andrew Petersen</h1>
-    <h3>HTML5 Tags - Video, Audio, and Canvas</h3>
-  </div>
-  <div class="menu">
-    <nav>
-      <ul>
-        <li><a id="home" href="css3Transitions.html">Next</a></li>
-        <li><a id="home" href="javaScriptEvents.html">Previous</a></li>
-        <li><a id="home" href="index.html">Back to Home</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div id="wholeContainer">
+        <div class="containerOne">
+            <h1>Andrew Petersen</h1>
+            <h3>HTML5 Tags - Video, Audio, and Canvas</h3>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a id="home" href="css3Transitions.html">Next</a></li>
+                    <li><a id="home" href="javaScriptEvents.html">Previous</a></li>
+                    <li><a id="home" href="index.html">Back to Home</a></li>
+                </ul>
+            </nav>
+        </div>
 
-  <div class="containerOne">
-    <h4>HTML5 Tags - Video, Audio, and Canvas</h4>
-<p>Show me you can imbed and play an audio or video clip. Show me something cool with Canvas (draw a graph, use your finger to finger paint)</p>
-</div>
-  </div>
+        <div class="containerOne">
+            <h4>HTML5 Tags - Video, Audio, and Canvas</h4>
+            <p>Show me you can imbed and play an audio or video clip. Show me something cool with Canvas (draw a graph, use your finger to finger paint)</p>
+        </div>
+
+        <div class="containerTwo">
+            <h4>Video</h4>
+            <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">HTML Video element </a> embeds a media player which supports video playback into the document.</p>
+            <div class="containerThree">
+                <h5>From YouTube</h5>
+                <iframe max-width="854" max-height="480" style="width: 90%;height: 30em; margin-left: 50px;" src="https://www.youtube.com/embed/DGeTa4v-LdA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            </div><br /><hr />
+            <h4>Audio</h4>
+            <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"></a>HTML audio element is used to embed sound content in documents. </p>
+            <div class="containerThree">
+                <h5>You're Welcome - Moana Soundtrack</h5>
+                <audio controls="controls">
+                    <source src="audio\HTML5Tags\You're Welcome.m4a" type="audio/mp4" />
+                </audio>
+
+            </div><br /><hr />
+            <h4>Canvas</h4>
+            <div class="containerThree">
+                <span onload="draw();">
+                    <canvas max-width="854" height="250" style="background-color: white; width: 90%; margin-left: 50px; border: 1.5px solid black;"></canvas>
+
+                    <script type="text/javascript">
+                  var canvas = document.querySelector('canvas');
+
+                  var c = canvas.getContext('2d');
+
+                  c.fillRect(75, 40, 50, 50);
+                  c.fillRect(175, 40, 50, 50);
+                  c.fillRect(100, 150, 100, 50);
+                  c.fillRect(50, 125, 50, 50);
+                  c.fillRect(200, 125, 50, 50);
+
+
+
+                    </script>
+                </span>
+            </div>
+        </div>
+    </div>
     <footer>
         <p>Andrew Petersen - CIT 261</p>
 
