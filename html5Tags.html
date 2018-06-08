@@ -52,16 +52,46 @@
                     <script type="text/javascript">
                   var canvas = document.querySelector('canvas');
 
-                  var c = canvas.getContext('2d');
+                        var c = canvas.getContext('2d');
 
-                  c.fillRect(75, 40, 50, 50);
-                  c.fillRect(175, 40, 50, 50);
-                  c.fillRect(100, 150, 100, 50);
-                  c.fillRect(50, 125, 50, 50);
-                  c.fillRect(200, 125, 50, 50);
+                        
+                        
+                        var iw = 310;
+                        var ih = 260;
+                        var x = Math.random() * iw;
+                        var y = Math.random() * ih;
+                        var dx = (Math.random() - 0.5) * 9;
+                        var dy = (Math.random() - 0.5) * 9;
+                        var radius = 30;
 
+                        function drawBall() {
+                            c.beginPath();
 
-
+                            c.arc(x, y, 20, 0, Math.PI * 2, false);
+                            c.closePath();
+                            c.fill();
+                            c.fillStyle = "orange";
+                        }
+ 
+                        function animate() {
+                            
+                            requestAnimationFrame(animate);
+                            c.clearRect(0, 0, 310, 310);
+                            drawBall();
+  
+                            if (x + radius > iw || x - radius < -10) {
+                                dx = -dx;
+                            }
+                            if (y + radius > ih || y - radius < -10) {
+                                dy = -dy;
+                            }
+                            
+                            x += dx;
+                            y += dy;
+                        }
+                        
+                        animate();
+                        
                     </script>
                 </span>
             </div>
