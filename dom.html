@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
@@ -26,6 +26,95 @@
     <h4>DOM Manipulation Using createElement, appendChild, insertBefore etc</h4>
 <p>DOM allows you to find and create/delete elements in your web page. You will need to dynamically add fields to your page, allow those elements to be deleted, and once you have access to that element make changes to it’s a style attributes.</p>
 </div>
+  <div class="containerTwo">
+      <h4>DOM Manipulation</h4>
+      <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">Document Object Model (DOM)</a> connects web pages to scripts or programming languages. </p>
+      <h4>Add Fields</h4>
+      <div class="containerThree">
+      <script>
+
+          function appendPract() {
+              var newField = document.createElement('li', '<h4>');
+              var textPart = document.createTextNode('Here is a new text line!');
+
+              newField.appendChild(textPart);
+
+              document.getElementById('newElementId').appendChild(newField);             
+          }
+          
+      </script>
+          <h5>Syntax</h5>
+          <h5>Example</h5>
+          <ol id="newElementId">
+              <li>
+                  This is line one!
+              </li>
+              <li>
+                  This is line two!
+              </li>
+              <li>
+                  This is line three!
+              </li>
+              <li>
+                  This is line four!
+              </li>
+          </ol>
+
+          <button onclick="appendPract()">Add the line</button>
+      </div><br /><hr />
+      <h4>Make Changes to its Style Atttributes</h4>
+      <div class="containerThree">
+          <h5>Syntax</h5>
+          <h5>Example</h5>
+          <p id="tToC" style="padding: 15px;">Watch Me!</p>
+          <button type="button" onclick="makeSmaller()">Make Smaller</button>
+          <button type="button" onclick="makeBigger()">Make Bigger</button>
+          <button type="button" onclick="makeBlue()">Make Blue</button>
+          <button type="button" onclick="makeRed()">Make Red</button>
+          <button type="button" onclick="makeGreen()">Make Green</button>
+          <button type="button" onclick="makeBlack()">Make Black</button>
+          <button type="button" onclick="blackBack()">Make Background Black</button>
+          <button type="button" onclick="removeBack()">Remove Black Background</button>
+          <br />
+          <input type="button" value="Hide It" onclick="document.getElementById('tToC').style.visibility='hidden'">
+          <input type="button" value="Show It" onclick="document.getElementById('tToC').style.visibility='visible'">
+          <script>
+              function makeBigger() {
+                  document.getElementById("tToC").style.fontSize = "xx-large";
+              }
+              function makeBlue() {
+                  document.getElementById("tToC").style.color = "blue";
+              }
+              function makeRed() {
+                  document.getElementById("tToC").style.color = "red";
+              }
+              function makeGreen() {
+                  document.getElementById("tToC").style.color = "green";
+              }
+              function makeBlack() {
+                  document.getElementById("tToC").style.color = "black";
+              }
+              function makeSmaller() {
+                  document.getElementById("tToC").style.fontSize = "x-small";
+              }
+              function blackBack() {
+                  document.getElementById("tToC").style.backgroundColor = "black";
+                  document.getElementById("tToC").style.color = "white";
+              }
+              function removeBack() {
+                  document.getElementById("tToC").style.backgroundColor = '#efefef';
+                  document.getElementById("tToC").style.color = "black";
+              }
+          </script>
+      </div><br /><hr />
+      <h4>Delete Fields</h4>
+      <div class="containerThree">
+          <h5>Syntax</h5>
+          <h5>Example</h5>
+      </div><br /><hr />
+
+
+  </div>
   </div>
     <footer>
         <p>Andrew Petersen - CIT 261</p>
