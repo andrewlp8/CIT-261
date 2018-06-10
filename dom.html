@@ -111,6 +111,20 @@
       <div class="containerThree">
           <h5>Syntax</h5>
           <h5>Example</h5>
+          <div id="removeArea">
+              <p id="num1">This will be removed.</p>
+              <p id="num2">This is another paragraph.</p>
+              <button type="button" onclick="removeIt()">Remove That Sentence</button>
+          </div>
+
+          <script>
+              function removeIt() {
+              var parent = document.getElementById("removeArea");
+              var child = document.getElementById("num1");
+                  parent.removeChild(child);
+              }
+          </script>
+
       </div><br /><hr />
 
 
