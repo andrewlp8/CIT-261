@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -69,7 +69,7 @@
 
       var ans = a * b;
 
-      document.getElementById('functionOutputDiv').innerHTML = ans;
+      document.getElementById('functionOutputDiv').innerHTML = "Answer = " + ans;
     }
 
     // Array Demo Code 1
@@ -154,7 +154,7 @@
         <h5>Example</h5>
         <img src="https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/images/JavaScript/forLoopEx.JPG" alt="Example for loop"><br><br/>
         <p>The button below will display the results of this example.</p>
-        <button type="button" onclick="forLoopEx()">5 Times Table</button>
+        <button style="width: 15em; height: 10em;" type="button" onclick="forLoopEx()">5 Times Table</button>
         <div id="forLoopOutputDiv"></div>
       </div>
 
@@ -168,8 +168,8 @@
       <img src="https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/images/JavaScript/switchSyntax.JPG" alt="syntax for loop">
       <h5>Example</h5>
       <img src="https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/images/JavaScript/switchEx.JPG" alt="Example for loop"><br><br/>
-      Are you enjoying this class? <input type="text" id="switchInputBox">
-      <button type="button" onclick="switchEx()">Get Response</button><br/>
+      Are you enjoying this class? <input type="text" id="switchInputBox"><br />
+      <button style="width: 15em; height: 10em;" type="button" onclick="switchEx()">Get Response</button><br/>
       <br/>
       <div id="switchOutputDiv"></div>
     </div>
@@ -185,7 +185,7 @@
       <h5>Example</h5>
       <img src="images/JavaScript/conditionEx.JPG" alt="Example for loop"><br><br/>
       Pick a number, any number: <input type="text" id="conditionInputBox"><br/>
-      <button type="button" onclick="conditionEx()">Find Out What I Know</button>
+      <button style="width: 15em; height: 10em;" type="button" onclick="conditionEx()">Find Out What I Know</button>
       <br/>
       <div id="conditionOutputDiv"></div>
     </div>
@@ -201,9 +201,10 @@
       <h5>Example</h5>
       <img src="images/JavaScript/functionEx.JPG" alt="Example for loop"><br><br/>
 
-      What two numbers do you want to multiply: <input type="text" id="aInputBox" placeholder="First Number"><input type="text" id="bInputBox" placeholder="Second Number">
-      <button type="button" onclick="myFunction()">Click ME</button>
-      <div id="functionOutputDiv"></div>
+      What two numbers do you want to multiply: <br />
+        <input type="text" id="aInputBox" placeholder="First Number"> x <input type="text" id="bInputBox" placeholder="Second Number"><div id="functionOutputDiv"></div><br />
+      <button style="width: 15em; height: 10em;" type="button" onclick="myFunction()">Get Answer</button>
+      
 
     </div>
 
@@ -219,11 +220,11 @@
       <h5>Example</h5>
       <img src="images/JavaScript/arrayEx.JPG" alt="Example for loop"><br><br/>
 
-     <button type="button" onclick="arrExShopping()">Shopping List</button>
+     <button style="width: 15em; height: 10em;" type="button" onclick="arrExShopping()">Shopping List</button>
       <div id="shoppingListOutputDiv"></div><br><br/>
 
       <img src="images/JavaScript/arrayExTwo.JPG" alt="Example for loop"><br><br/>
-      <button type="button" onclick="arrExNums()">Numbers and Letters</button>
+      <button style="width: 15em; height: 10em;" type="button" onclick="arrExNums()">Numbers and Letters</button>
        <div id="numListOutputDiv"></div>
 
     </div>
@@ -241,7 +242,7 @@
       <h5>Example</h5>
       <img src="images/JavaScript/assArrayEx.JPG" alt="Example for loop"><br><br/>
 
-     <button type="button" onclick="associateArr()">Click Me</button>
+     <button style="width: 15em; height: 10em;" type="button" onclick="associateArr()">Click Me</button>
     <div id="associateOutputDiv"></div>
 
     </div>

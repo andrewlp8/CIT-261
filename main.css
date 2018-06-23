@@ -37,6 +37,7 @@ ul {
 }
 #list li {
   padding-top: 1.5em;
+  font-size: 1.75em;
 }
 a:link {
   text-decoration: none;
@@ -116,14 +117,18 @@ nav li, #portfolioPort {
             text-shadow: 1px 2px 2px #efefef;
         }
 #portfolio {
+    font-size: 1.5em;
   text-align: center;
+  padding: 1.5em;
   background-color: #dfdfdf;
   margin: 5px 12% 0;
-  width: 80px;
+  width: 6em;
+  height: 1.5em;
   border: 2px solid #0f0f0f;
   border-radius: 4px;
   box-shadow: 7px 6px 13px 0px rgba(50, 50, 50, 0.67);
   z-index: 2;
+  float: right;
 }
 
 #portFrame {

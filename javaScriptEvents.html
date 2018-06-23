@@ -5,40 +5,46 @@
     <meta charset="utf-8" />
     <title>JavaScript Events</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        button {
+            width: 15em;
+            height: 10em;
+        }
+    </style>
     <script>
 
-    // on mouse over and out
-    function changeColorOnMouseOver() {
-      var control = document.getElementById('btn');
-      control.style.background = 'green';
-      control.style.color = 'red';
-      control.style.font = '25px';
-      control.value = 'Merry Christmas - HoHoHo!';
-    }
-    function changeColorOnMouseOut() {
-      var control = document.getElementById('btn');
-      control.style.background = 'black';
-      control.style.color = 'white';
-      control.value = 'Just Kidding - HAHAHA!';
-    }
+        // on mouse over and out
+        function changeColorOnMouseOver() {
+            var control = document.getElementById('btn');
+            control.style.background = 'green';
+            control.style.color = 'red';
+            control.style.font = '25px';
+            control.value = 'Merry Christmas - HoHoHo!';
+        }
+        function changeColorOnMouseOut() {
+            var control = document.getElementById('btn');
+            control.style.background = 'black';
+            control.style.color = 'white';
+            control.value = 'Just Kidding - HAHAHA!';
+        }
 
 
-    // on blur and on key up
-    function validateRequiredField(valueId) {
-      var id = document.getElementById(valueId);
-      id.style.color = 'black';
-      if (id.value == "") {
-        id.style.background = 'rgba(255, 0, 0, .5)';
-      }
-      else {
-        id.style.background = 'rgba(46, 204, 138, 0.6)';
-      }
-    }
+        // on blur and on key up
+        function validateRequiredField(valueId) {
+            var id = document.getElementById(valueId);
+            id.style.color = 'black';
+            if (id.value == "") {
+                id.style.background = 'rgba(255, 0, 0, .5)';
+            }
+            else {
+                id.style.background = 'rgba(46, 204, 138, 0.6)';
+            }
+        }
 
-    // on document loaded
-    window.onload = function onLoadEx() {
-      window.open('popUp.html')
-    }
+        // on document loaded
+        window.onload = function onLoadEx() {
+            window.open('popUp.html')
+        }
 
     </script>
 </head>
