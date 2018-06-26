@@ -1,36 +1,153 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
     <meta charset="utf-8" />
     <title>CSS3 Using JavaScript</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style media="screen">
+        .square {
+            width: 300px;
+            height: 300px;
+            background: red;
+            transition: opacity 2s;
+        }
+        #box {
+            background: green;
+            max-width: 400px;
+            height: 200px;
+        }
+        #box2 {
+            background: green;
+            max-width: 400px;
+            height: 100px;
+            overflow: hidden;
+        }
+        #box3 {
+            background: green;
+            max-width: 400px;
+            height: 200px;
+            position: relative;
+            top: 15px;
+            left: -800px;
+        }
+        button {
+            width: 10em;
+            height: 5em;
+        }
+    </style>
+    <script type="text/javascript">
+        function squareAction() {
+            const square = document.getElementById('square1');
+
+            square.style.opacity = '0';
+        }
+        function squareActionIn() {
+            const square = document.getElementById('square1');
+
+            square.style.opacity = '1';
+        }
+        function box1Action(el, clr) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "background 1.0s linear 0s";
+            elem.style.background = clr;
+
+        }
+
+        function box2Open(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "height 1.0s linear 0s";
+            elem.style.height = '200px';
+        }
+        function box2Close(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "height 1.0s linear 0s";
+            elem.style.height = '0';
+        }
+        function box2In(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "height 1.0s linear 0s";
+            elem.style.height = '100px';
+        }
+        function box3Open(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 0.5s ease-in 0s";
+            elem.style.left = '0px';
+        }
+        function box3Close(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 0.5s ease-out 0s";
+            elem.style.left = '-800px';
+        }
+    </script>
 </head>
 <body>
-  <div id="wholeContainer">
-  <div class="containerOne">
-    <h1>Andrew Petersen</h1>
-    <h3>CSS3 Transitions and Animations using JavaScript</h3>
-  </div>
-  <div class="menu">
-    <nav>
-      <ul>
-        <li><a id="home" href="javaScriptEvents.html">Next</a></li>
-        <li><a id="home" href="cssManipUsingJavaScript.html">Previous</a></li>
-        <li><a id="home" href="index.html">Back to Home</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div id="wholeContainer">
+        <div class="containerOne">
+            <h1>Andrew Petersen</h1>
+            <h3>CSS3 Transitions and Animations using JavaScript</h3>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a id="home" href="javaScriptEvents.html">Next</a></li>
+                    <li><a id="home" href="cssManipUsingJavaScript.html">Previous</a></li>
+                    <li><a id="home" href="index.html">Back to Home</a></li>
+                </ul>
+            </nav>
+        </div>
 
-  <div class="containerOne">
-    <h4>CSS3 Transitions and Animations</h4>
-    <p>Triggering them with JavaScript</p>
-  </div>
-  </div>
-    <footer>
-        <p>Andrew Petersen - CIT 261</p>
+        <div class="containerOne">
+            <h4>CSS3 Transitions and Animations</h4>
+            <p>Triggering them with JavaScript</p>
+        </div>
 
-    </footer>
+        <div class="containerTwo">
+            <h3>Fade In and Out</h3>
+            <div class="containerThree">
+                <button type="button" onclick="squareAction()">Fade Out</button>
+                <button type="button" onclick="squareActionIn()">Fade In</button><br /><br />
+                <div id="square1" class="square"></div>
+            </div>
+        </div>
+
+        <div class="containerTwo">
+            <h3>Transition Colors</h3>
+            <div class="containerThree">
+                <button onclick="box1Action('box', 'red')">Red</button>
+                <button onclick="box1Action('box', 'blue')">Blue</button>
+                <button onclick="box1Action('box', 'green')">Green</button><br /><br />
+                <div id="box">This box changes colors . . .</div>
+            </div>
+        </div>
+
+
+        <div class="containerTwo">
+            <h3>Slide Taller, Out, and In</h3>
+            <div class="containerThree">
+                <button onclick="box2Open('box2')">Slide Taller</button>
+                <button onclick="box2Close('box2')">Slide To Gone</button>
+                <button onclick="box2In('box2')">Slide In</button><br /><br />
+                <div id="box2">This box slides . . .</div>
+            </div>
+        </div>
+
+        <div class="containerTwo">
+            <h3>Ease in and Out</h3>
+            <div class="containerThree">
+                <button onmouseover="box3Open('box3')">Ease In</button>
+                <button onclick="box3Close('box3')">Ease Out</button>              
+                <div id="box3">This box eases in and out . . .</div>
+            </div>
+        </div>
+
+
+
+    </div>
+        <footer>
+            <p>Andrew Petersen - CIT 261</p>
+
+        </footer>
 
 </body>
 </html>
