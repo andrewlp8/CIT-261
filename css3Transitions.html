@@ -1,32 +1,124 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
     <meta charset="utf-8" />
     <title>CSS3 Transitions</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        #box1 {
+            background: green;
+            max-width: 400px;
+            height: 200px;
+        }
+        div#load_screen {
+            background: #222;
+            opacity: 0.98;
+            position: fixed;
+            z-index: 10;
+            top: 0px;
+            width: 100%;
+            height: 1600px;
+        }
+        div#load_screen > div#loading {
+            color: #FFF;
+            width: 120px;
+            height: 24px;
+            margin: 300px auto;
+        }
+        .flexCont {
+            display: flex;
+            justify-content: center;
+        }
+        .transBox {
+            color: white;
+            font: 1.5em sans-serif;
+            line-height: 250px;
+            text-align: center;
+            width: 250px;
+            height: 250px;
+            background: green;
+            margin: auto 15px;
+            transition: width 2s, height 5s, transform, 2s;
+        }
+
+        #property:hover {
+            width: 400px;
+            height: 400px;
+        }
+
+        #both1:hover {
+            width: 400px;
+            height: 400px;
+            transform: rotate(350deg);
+        }
+        #skew:hover {
+            transform: skew(40deg, 10deg);
+        }
+            
+    </style>
+    <script>
+
+            window.addEventListener("load", function() {
+
+                var load_screen = document.getElementById("load_screen");
+                document.body.removeChild(load_screen);        
+
+            });
+           
+        
+    </script>
 </head>
 <body>
-  <div id="wholeContainer">
-  <div class="containerOne">
-    <h1>Andrew Petersen</h1>
-    <h3>CSS3 Transitions</h3>
-  </div>
-  <div class="menu">
-    <nav>
-      <ul>
-        <li><a id="home" href="css3Transforms.html">Next</a></li>
-        <li><a id="home" href="html5Tags.html">Previous</a></li>
-        <li><a id="home" href="index.html">Back to Home</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div id="load_screen"><div id="loading">loading webpage</div></div>
 
-  <div class="containerOne">
-    <h4>Designing, Defining, and Triggering CSS3 Transitions without Custom Libraries</h4>
-    <p>Custom libraries are like jQuery, Bootstrap and Angular. Learn to use CSS3 directly. Understand what it does and you’ll appreciate the fancy libraries when you use them later.</p>
-  </div>
-  </div>
+    <div id="wholeContainer">
+
+
+        <div class="containerOne">
+            <h1>Andrew Petersen</h1>
+            <h3>CSS3 Transitions</h3>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a id="home" href="css3Transforms.html">Next</a></li>
+                    <li><a id="home" href="html5Tags.html">Previous</a></li>
+                    <li><a id="home" href="index.html">Back to Home</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="containerOne">
+            <h4>Designing, Defining, and Triggering CSS3 Transitions without Custom Libraries</h4>
+            <p>Custom libraries are like jQuery, Bootstrap and Angular. Learn to use CSS3 directly. Understand what it does and you’ll appreciate the fancy libraries when you use them later.</p>
+        </div>
+
+        <div class="containerTwo">
+            <h3>Transition Grow</h3>
+            <div class="containerThree">
+                <div class="flexCont">
+                    <div class="transBox" id="property">Grow</div>
+
+                </div>
+
+            </div>
+            <br /><hr />
+        </div>
+
+        <div class="containerTwo">
+            <h3>Transition and Transform</h3>
+            <div class="containerThree">
+                <div class="flexCont">
+                    <div class="transBox" id="both1">Grow & Rotate</div>
+
+                </div>
+
+            </div>
+            <br /><hr />
+        </div>
+
+    </div>
     <footer>
         <p>Andrew Petersen - CIT 261</p>
 

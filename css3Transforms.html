@@ -1,36 +1,95 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en-us">
 <head>
     <meta charset="utf-8" />
     <title>CSS3 Transforms</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        .flexCont {
+            display: flex;
+            justify-content: center;
+        }
+
+        .transBox {
+            color: white;
+            font: 1.5em sans-serif;
+            line-height: 250px;
+            text-align: center;
+            width: 250px;
+            height: 250px;
+            background: green;
+            margin: auto 15px;
+            transition: transform 2s;
+        }
+
+        #scale:hover {
+            transform: scale(1.5);
+        }
+
+        #rotate:hover {
+            transform: rotate(0.5turn);
+        }
+
+        #skew:hover {
+            transform: skew(40deg, 10deg);
+        }
+    </style>
 </head>
 <body>
-  <div id="wholeContainer">
-  <div class="containerOne">
-    <h1>Andrew Petersen</h1>
-    <h3>CSS3 Transforms</h3>
-  </div>
-  <div class="menu">
-    <nav>
-      <ul>
-        <li><a id="home" href="css3Animations.html">Next</a></li>
-        <li><a id="home" href="css3Transitions.html">Previous</a></li>
-        <li><a id="home" href="index.html">Back to Home</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div id="wholeContainer">
+        <div class="containerOne">
+            <h1>Andrew Petersen</h1>
+            <h3>CSS3 Transforms</h3>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a id="home" href="css3Animations.html">Next</a></li>
+                    <li><a id="home" href="css3Transitions.html">Previous</a></li>
+                    <li><a id="home" href="index.html">Back to Home</a></li>
+                </ul>
+            </nav>
+        </div>
 
-  <div class="containerOne">
-    <h4>Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries</h4>
-    <p>Custom libraries are like jQuery, Bootstrap and Angular. Learn to use CSS3 directly. Understand what it does and you’ll appreciate the fancy libraries when you use them later.</p>
-  </div>
-  </div>
-    <footer>
-        <p>Andrew Petersen - CIT 261</p>
+        <div class="containerOne">
+            <h4>Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries</h4>
+            <p>Custom libraries are like jQuery, Bootstrap and Angular. Learn to use CSS3 directly. Understand what it does and you’ll appreciate the fancy libraries when you use them later.</p>
+        </div>
 
-    </footer>
+        <div class="containerTwo">
+            <h3>Scale</h3>
+            <div class="containerThree">
+                <div class="flexCont">
+                    <div class="transBox" id="scale">Scale</div>
+                </div>
+            </div>
+            <br /><hr />
+
+                  
+                      <h3>Rotate</h3>
+                      <div class="containerThree">
+                          <div class="flexCont">
+                               <div class="transBox" id="rotate">Rotate</div>                             
+                          </div>
+                      </div>
+                      <br /><hr />
+
+                      
+                          <h3>Skew</h3>
+                          <div class="containerThree">
+                              <div class="flexCont">
+                                <div class="transBox" id="skew">Skew</div>
+                              </div>
+                          </div>
+                          <br /><hr />
+                      
+                      </div>
+            </div>
+                      <footer>
+                          <p>Andrew Petersen - CIT 261</p>
+
+                      </footer>
 
 </body>
 </html>
