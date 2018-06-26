@@ -1,0 +1,101 @@
+.box1 {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: colorChange;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 5s;*/
+    animation-direction: alternate;
+    /* to keep it as a circle at end */
+    animation-fill-mode: forwards;
+}
+.box2 {
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: moveIt;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 5s;*/
+    animation-direction: alternate;
+    /* to keep it as a circle at end */
+    animation-fill-mode: forwards;
+}
+.box3 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: morph;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 5s;*/
+    animation-direction: alternate;
+    /* to keep it as a circle at end */
+    animation-fill-mode: forwards;
+}
+.box4 {
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: transform;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 5s;*/
+    animation-direction: alternate;
+    /* to keep it as a circle at end */
+    animation-fill-mode: forwards;
+}
+.box5 {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: blend;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 5s;*/
+    animation-direction: alternate;
+    /* to keep it as a circle at end */
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorChange {
+    0% { background-color: white; }
+    25% { background-color: red;  }
+    50% { background-color: blue; }
+    75% { background-color: green; }
+    100% { background-color: white; }
+}
+@keyframes moveIt {
+    0% { left: 0px; top: 0px;  }
+    25% { left: 300px; top: 0px;  }
+    50% { left: 300px; top: 300px; }
+    75% {  left: 0px; top: 300px; }
+    100% { left: 0px; top: 0px; }
+}
+@keyframes morph {
+    0% { border-radius: 0 0 0 0; }
+    25% { border-radius: 50% 0 0 0; }
+    50% { border-radius: 50% 50% 0 0; }
+    75% { border-radius: 50% 50% 50% 0; }
+    100% { border-radius: 50% 50% 50% 50%; }
+}
+@keyframes transform {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes blend {
+    0% { background-color: white; left: 0px; top: 0px; border-radius: 0 0 0 0; transform: rotate(0deg); }
+    25% { background-color: red; left: 300px; top: 0px; border-radius: 50% 0 0 0; transform: rotate(90deg); }
+    50% { background-color: blue; left: 300px; top: 300px; border-radius: 50% 50% 0 0; transform: rotate(180deg);}
+    75% { background-color: green; left: 0px; top: 300px; border-radius: 50% 50% 50% 0; transform: rotate(270deg); }
+    100% { background-color: white; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%; transform: rotate(360deg); }
+}

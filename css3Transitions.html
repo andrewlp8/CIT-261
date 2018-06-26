@@ -6,6 +6,7 @@
     <title>CSS3 Transitions</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <style>
+        
         #box1 {
             background: green;
             max-width: 400px;
@@ -22,9 +23,22 @@
         }
         div#load_screen > div#loading {
             color: #FFF;
-            width: 120px;
+            max-width: 25%;
             height: 24px;
-            margin: 300px auto;
+            margin: 150px auto;
+        }
+        div.loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #34dbb9;
+            margin: 0 auto;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            0% {transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
         }
         .flexCont {
             display: flex;
@@ -58,19 +72,23 @@
             
     </style>
     <script>
-
-            window.addEventListener("load", function() {
-
-                var load_screen = document.getElementById("load_screen");
-                document.body.removeChild(load_screen);        
-
+        
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    var load_screen = document.getElementById("load_screen");
+                    document.body.removeChild(load_screen);
+                }, 7000);
+                
             });
+        
+
+        
            
         
     </script>
 </head>
 <body>
-    <div id="load_screen"><div id="loading">loading webpage</div></div>
+    <div id="load_screen"><div id="loading">loading webpage</div><div class="loader"></div><div id="loading">Actually its done loading, and this is just an example of the set time out, set to 7 seconds.</div></div>
 
     <div id="wholeContainer">
 
