@@ -7,6 +7,94 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="keyframes.css">
     <style>
+#magicText {
+    font-size: 3em;
+    text-align: center;
+}
+
+#first, #div1, div2 {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+#first {    
+  animation: showup 10s infinite;
+}
+
+#div1 {
+  width:0px;
+  animation: reveal1 10s infinite;
+}
+
+#second {
+  margin-left:-355px;
+  animation: slide1 10s infinite;
+}
+
+#div2 {
+  width:0px;
+  animation: reveal2 10s infinite;
+}
+
+#third {
+  margin-left:-355px;
+  animation: slide2 10s infinite;
+}
+@keyframes bounce { 
+            0%, 25%, 50%, 75%, 100% {transform: translateY(0);} 
+            12.5% {transform: translateY(-40px);} 
+            37.5% {transform: translateY(-20px);} 
+            62.5% {transform: translateY(-10px);} 
+            87.5% {transform: translateY(-5px);} 
+         }
+         
+#first {             
+        animation: bounce 10s infinite; 
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    25% {opacity:1;}
+    75% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slide1 {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    30% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes slide2 {
+    0% { margin-left:-1600px; }
+    10% { text-transform: lowercase; }
+    20% { margin-left:-800px; text-transform: uppercase; color: black;}
+    30% { text-transform: lowercase;}
+    40% { text-transform: uppercase; color: blue; }
+    50% { text-transform: lowercase; }
+    60% { margin-left: 0px; text-transform: uppercase; color: green; }
+    70% { text-transform: lowercase; }
+    80% { text-transform: uppercase; color: red;}
+    90% { text-transform: lowercase; }
+    100% { margin-left:0px; text-transform: uppercase;}
+}
+
+@keyframes reveal1 {
+    0% {opacity:0;width:0px;}
+    40% {opacity:1;width:0px; width:300px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+@keyframes reveal2 {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:600px;}
+}
 
     </style>
     <script type="text/javascript">
@@ -54,7 +142,7 @@
             </div>
             <br /><hr />
 
-            <h3>Animation Transform</h3>
+            <h3>Animation Transform - Rotate</h3>
             <div class="containerThree">
                 <div class="box4"></div>          
             </div>
@@ -66,10 +154,24 @@
             </div>
             <br /><hr />
 
+            <h3>Animation Text</h3>
+            <div class="containerThree" style="height: 250px">
+                <div id="magicText"> 
+                <div id="first" class="bounce">Watch closely,</div> 
+                <div id="div1"> 
+                    <span id="second">and experience </span> 
+                </div>
+                <div id="div2">
+                    <span id="third">the MAGIC!</span>
+                </div> 
+            
+
         </div>
 
-        <br /><hr />
+        
     </div>
+    </div>
+</div>
     <footer>
         <p>Andrew Petersen - CIT 261</p>
 
