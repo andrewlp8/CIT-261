@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   padding: 20px 0px;
-  width: 98%;
+  max-width: 98%;
   background-color: #efefef;
 }
 
@@ -16,12 +16,12 @@ body {
   background-color: #fff;
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 90%;
+  width: 85%;
+  max-width:100%;
   border: 2px solid #0f0f0f;
   border-radius: 4px;
   box-shadow: 7px 6px 13px 0px rgba(50, 50, 50, 0.67);
   padding: 0 20px;
-  clear: both;
 }
 .containerOne h4, p {
   text-align: left;
@@ -37,7 +37,7 @@ ul {
 }
 #list li {
   padding-top: 1.5em;
-  font-size: 1.75em;
+  font-size: 2em;
 }
 a:link {
   text-decoration: none;
@@ -118,9 +118,9 @@ nav li, #portfolioPort {
 #portfolio {
     font-size: 1.5em;
   text-align: center;
-  padding: 1.5em;
+  padding: .25em;
   background-color: #dfdfdf;
-  margin: 5px 12% 0;
+  margin: 0 8% 20px;
   width: 6em;
   height: 1.5em;
   border: 2px solid #0f0f0f;
@@ -146,10 +146,11 @@ nav li, #portfolioPort {
 
 .containerTwo {
   width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .containerThree {
-  width: 90%;
+  max-width: 98%;
   margin: 0 auto;
 }
 img {
