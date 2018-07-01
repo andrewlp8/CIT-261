@@ -24,7 +24,7 @@
             <h1>Andrew Petersen</h1>
             <h3>Project</h3>
             <p>While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission.</p>
-            <p>I have decided to use this idea for a project, and will work on including the removal of any conditions outside of current actual mission possibilities, so, there will be no Atlantis missions... yet.</p>
+            <p>I have decided to use this idea for a project, and will work on including the removal of any conditions outside of current actual mission possibilities, so, there will be no Atlantis missions... not yet at least. - update - added in all current 'A' Missions.</p>
         </div>
         <div class="menu">
             <nav>
@@ -41,9 +41,11 @@
             <h3 id="missionTitle"></h3>
             <!--The div element for the map -->
             <div id="map"></div><br />
-            <h4>Want to play? Where are you going to ona mission</h4>
-            <div id="test"></div>
-            <button width="400px" onclick="initMap()">Let's Find Out!</button><br>
+            <h4>Want to play?</h4>
+            <h4>Where are you going to go on a mission?</h4>
+            
+            <button width="400px" onclick="initMap()">Let's Find Out!</button><br><br/>
+            <div id="infoDiv"></div>
 
             
             <script>
@@ -52,7 +54,7 @@
                     
                     // declare min to max for rand num generator
                     var min = 1;
-                    var max = 36;
+                    var max = 41;
 
                     // location info
                     var name;
@@ -71,298 +73,400 @@
                                 name = "Adriatic North Mission";
                                 x = 45.815011;
                                 y = 15.981919;
-                                info = '<a target="_blank" href="http://lifey.org/adriatic-north-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1194" src="http://lifey.org/embed/adriaticnorthmission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/adriatic-north-mission/">Click to Learn More</a><br><br/>';
                                 break;
                             // Adriatic South Mission
                             case 2:
                                 name = "Adriatic South Mission";
                                 x = 41.327546;
                                 y = 19.818698;
-                                info = '<a target="_blank" href="http://lifey.org/adriatic-south-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1074" src="http://lifey.org/embed/adriaticsouthmission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/adriatic-south-mission/">Click to Learn More</a>';
                                 break;
                             // Alabama Birmingham Mission
                             case 3:
                                 name = "Alabama Birmingham Mission<br> *This is the best Mission, it's the one I served in.*<br>";
                                 x = 33.520661;
                                 y = -86.802490;
-                                info = '<a target="_blank" href="http://lifey.org/alabama-birmingham-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/alabamabirminghammission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/alabama-birmingham-mission/">Click to Learn More</a>';
                                 break;
                             // Alaska Anchorage Mission
                             case 4:
                                 name = "Alaska Anchorage Mission";
                                 x = 61.218056;
                                 y = -149.900278;
-                                info = '<a target="_blank" href="http://lifey.org/alaska-anchorage-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/alaskaanchoragemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/alaska-anchorage-mission/">Click to Learn More</a>';
                                 break;
                             // Alpine German Speaking Mission
                             case 5:
                                 name = "Alpine German Speaking Mission";
                                 x = 48.135125;
                                 y = 11.581980;
-                                info = '<a target="_blank" href="http://lifey.org/alpine-german-speaking-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1165" src="http://lifey.org/embed/alpinegermanspeakingmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/alpine-german-speaking-mission/">Click to Learn More</a>';
                                 break;    
                             // Angola Luanda Mission
                             case 6:
                                 name = "Angola Luanda Mission";
                                 x = -8.839988;
                                 y = 13.289437;
-                                info = '<a target="_blank" href="http://lifey.org/angola-luanda-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1034" src="http://lifey.org/embed/angolaluandamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/angola-luanda-mission/">Click to Learn More</a>';
                                 break; 
                             // Argentina Bahía Blanca Mission
                             case 7:
                                 name = "Argentina Bahía Blanca Mission";
                                 x = -34.603684;
                                 y = -58.381559;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-bahia-blanca-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="994" src="http://lifey.org/embed/argentinabahiamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-bahia-blanca-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Buenos Aires East Mission
                             case 8:
                                 name = "Argentina Buenos Aires East Mission";
                                 x = -34.608006;
                                 y = -58.374995;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-buenos-aires-east-mission/">Click to Learn More</a>';
+                                info = '<br><br/><div class="container3" style="text-align: left;"><h3>Interesting facts about Buenos Aires</h3><ol><li>People greet each other with a kiss on the cheek.</li><li>The Tango dance originated in Buenos Aires.</li><li>About a third of Argentinians live in the province of Buenos Aires.</li><li>The street Avenida 9 de Julio is one of the widest in the world, with 16 lanes.</li><li>The founders of Stripe lived in Buenos Aires in the early days of the company.</li><li>The University of Buenos Aires was founded in 1821.</li><li>The main soccer teams are River, Plata, San Lorenzo and Indepediente.</li><li>People living in the Capital are called Portenos.</li><li>The majority of people in Buenos Aires are classified as Caucasians.</li><li>The only operating LDS temple in Argentina is in Buenos Aires, as is the Argentina MTC.</li></ol></div><br><a target="_blank" href="http://lifey.org/argentina-buenos-aires-east-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Buenos Aires North Mission
                             case 9:
                                 name = "Argentina Buenos Aires North Mission";
                                 x = -34.455445;
                                 y = -58.584100;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-buenos-aires-north-mission/">Click to Learn More</a>';
+                                info = '<br><br/> <br><a target="_blank" href="http://lifey.org/argentina-buenos-aires-north-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Buenos Aires South Mission
                             case 10:
                                 name = "Argentina Buenos Aires South Mission";
                                 x = -34.808151;
                                 y = -58.400752;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-buenos-aires-south-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1154" src="http://lifey.org/embed/argentinabuenosairessouthmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-buenos-aires-south-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Buenos Aires West Mission
                             case 11:
                                 name = "Argentina Buenos Aires West Mission";
                                 x = -34.634620;
                                 y = -58.542240;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-buenos-aires-west-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="834" src="http://lifey.org/embed/argentinabuenosaireswestmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-buenos-aires-west-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Comodoro Rivadavia Mission
                             case 12:
                                 name = "Argentina Comodoro Rivadavia Mission";
                                 x = -45.863751;
                                 y = -67.482909;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-comodoro-rivadavia-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1034" src="http://lifey.org/embed/argentinacomodororivadaviamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-comodoro-rivadavia-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Córdoba Mission
                             case 13:
                                 name = "Argentina Córdoba Mission";
                                 x = -31.420083;
                                 y = -64.188776;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-cordoba-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="834" src="http://lifey.org/embed/argentinacordobamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-cordoba-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Mendoza Mission
                             case 14:
                                 name = "Argentina Mendoza Mission";
                                 x = -32.889459;
                                 y = -68.845839;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-mendoza-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/argentinamendozamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-mendoza-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Neuquén Mission
                             case 15:
                                 name = "Argentina Neuquén Mission";
                                 x = -38.951678;
                                 y = -68.059189;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-neuquen-mission/">Click to Learn More</a>';
+                                info = '<br><br/> <br><a target="_blank" href="http://lifey.org/argentina-neuquen-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Posadas Mission
                             case 16:
                                 name = "Argentina Posadas Mission";
                                 x = -27.377707;
                                 y = -55.923727;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-posadas-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="914" src="http://lifey.org/embed/argentinaposadasmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-posadas-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Resistencia Mission
                             case 17:
                                 name = "Argentina Resistencia Mission";
                                 x = -27.451862;
                                 y = -58.985555;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-resistencia-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/argentinaresistenciamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-resistencia-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Rosario Mission
                             case 18:
                                 name = "Argentina Rosario Mission";
                                 x = -32.944243;
                                 y = -60.650539;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-rosario-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="874" src="http://lifey.org/embed/argentinarosariomission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-rosario-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Salta Mission
                             case 19:
                                 name = "Argentina Salta Mission";
                                 x = -24.790529;
                                 y = -65.408459;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-salta-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="794" src="http://lifey.org/embed/argentinasaltamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-salta-mission/">Click to Learn More</a>';
                                 break;
                             // Argentina Santa Fe Mission
                             case 20:
                                 name = "Argentina Santa Fe Mission";
                                 x = -31.640180;
                                 y = -60.710310;
-                                info = '<a target="_blank" href="http://lifey.org/argentina-santa-fe-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="914" src="http://lifey.org/embed/argentinasantafemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/argentina-santa-fe-mission/">Click to Learn More</a>';
                                 break;
                             // Arizona Gilbert Mission
                             case 21:
                                 name = "Arizona Gilbert Mission";
                                 x = 33.368281;
                                 y = -111.781937;
-                                info = '<a target="_blank" href="http://lifey.org/arizona-gilbert-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="794" src="http://lifey.org/embed/arizonagilbertmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arizona-gilbert-mission/">Click to Learn More</a>';
                                 break;
                             // Arizona Mesa Mission
                             case 22:
                                 name = "Arizona Mesa Mission";
                                 x = 33.461571;
                                 y = -111.761564;
-                                info = '<a target="_blank" href="http://lifey.org/arizona-mesa-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1034" src="http://lifey.org/embed/arizonamesamission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arizona-mesa-mission/">Click to Learn More</a>';
                                 break;
                             // Arizona Phoenix Mission
                             case 23:
                                 name = "Arizona Phoenix Mission";
                                 x = 33.636771;
                                 y = -112.206640;
-                                info = '<a target="_blank" href="http://lifey.org/arizona-phoenix-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/arizonaphoenixmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arizona-phoenix-mission/">Click to Learn More</a>';
                                 break;
                             // Arizona Scottsdale Mission
                             case 24:
                                 name = "Arizona Scottsdale Mission";
                                 x = 33.528127;
                                 y = -111.903902;
-                                info = '<a target="_blank" href="http://lifey.org/arizona-scottsdale-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="914" src="http://lifey.org/embed/arizonascottsdalemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arizona-scottsdale-mission/">Click to Learn More</a>';
                                 break;
                             // Arizona Tempe Mission
                             case 25:
                                 name = "Arizona Tempe Mission";
                                 x = 33.396226;
                                 y = -111.905864;
-                                info = '<a target="_blank" href="http://lifey.org/arizona-tempe-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/arizonatempemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arizona-tempe-mission/">Click to Learn More</a>';
                                 break;
                             // Arizona Tucson Mission
                             case 26:
                                 name = "Arizona Tucson Mission";
                                 x = 32.343970;
                                 y = -110.986522;
-                                info = '<a target="_blank" href="http://lifey.org/arizona-tucson-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="834" src="http://lifey.org/embed/arizonatucsonmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arizona-tucson-mission/">Click to Learn More</a>';
                                 break;
                             // Arkansas Bentonville Mission
                             case 27:
                                 name = "Arkansas Bentonville Mission";
                                 x = 36.382240;
                                 y = -94.170694;
-                                info = '<a target="_blank" href="http://lifey.org/arkansas-bentonville-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/arkansasbentonvillemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arkansas-bentonville-mission/">Click to Learn More</a>';
                                 break;
                             // Arkansas Little Rock Mission
                             case 28:
                                 name = "Arkansas Little Rock Mission";
                                 x = 34.816389;
                                 y = -92.255005;
-                                info = '<a target="_blank" href="http://lifey.org/arkansas-little-rock-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="994" src="http://lifey.org/embed/arkansaslittlerockmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/arkansas-little-rock-mission/">Click to Learn More</a>';
                                 break;
                             // Armenia Yerevan Mission
                             case 29:
                                 name = "Armenia Yerevan Mission";
                                 x = 40.207149;
                                 y = 44.512295;
-                                info = '<a target="_blank" href="http://lifey.org/armenia-yerevan-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="1074" src="http://lifey.org/embed/armeniayerevanmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/armenia-yerevan-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Adelaide Mission
                             case 30:
                                 name = "Australia Adelaide Mission";
                                 x = -34.896389;
                                 y = 138.639167;
-                                info = '<a target="_blank" href="http://lifey.org/australia-adelaide-mission/">Click to Learn More</a>';
+                                info = '<br><br/> <br><a target="_blank" href="http://lifey.org/australia-adelaide-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Brisbane Mission
                             case 31:
                                 name = "Australia Brisbane Mission";
                                 x = -27.431888;
                                 y = 153.065235;
-                                info = '<a target="_blank" href="http://lifey.org/australia-brisbane-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="794" src="http://lifey.org/embed/australiabrisbanemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/australia-brisbane-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Melbourne Mission
                             case 32:
                                 name = "Australia Melbourne Mission";
                                 x = -37.868873;
                                 y = 145.214348;
-                                info = '<a target="_blank" href="http://lifey.org/australia-melbourne-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="994" src="http://lifey.org/embed/australiamelbournemission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/australia-melbourne-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Perth Mission
                             case 33:
                                 name = "Australia Perth Mission";
                                 x = -31.898000;
                                 y = 115.834000;
-                                info = '<a target="_blank" href="http://lifey.org/australia-perth-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="754" src="http://lifey.org/embed/australiaperthmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/australia-perth-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Sydney Mission
                             case 34:
                                 name = "Australia Sydney Mission";
                                 x = -33.775673;
                                 y = 151.050683;
-                                info = '<a target="_blank" href="http://lifey.org/australia-sydney-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/australiasydneymission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/australia-sydney-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Sydney North Mission
                             case 35:
                                 name = "Australia Sydney North Mission";
                                 x = -33.776466;
                                 y = 151.052370;
-                                info = '<a target="_blank" href="http://lifey.org/australia-sydney-north-mission/">Click to Learn More</a>';
+                                info = '<br><br/><iframe width="100%" height="994" src="http://lifey.org/embed/australiasydneynorthmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/australia-sydney-north-mission/">Click to Learn More</a>';
                                 break;
                             // Australia Sydney South Mission
                             case 36:
                                 name = "Australia Sydney South Mission";
                                 x = -33.969320;
                                 y = 151.069690;
-                                info = '<a target="_blank" href="http://lifey.org/australia-sydney-south-mission/">Click to Learn More</a>';
+                                info = '<br><br/> <br><a target="_blank" href="http://lifey.org/australia-sydney-south-mission/">Click to Learn More</a>';
                                 break;
                             // Baltic Mission
                             case 37:
-                                name = "";
-                                x = 0;
-                                y = 0;
-                                info = '<a target="_blank" href="">Click to Learn More</a>';
+                                name = "Baltic Mission";
+                                x = 56.964306;
+                                y = 24.146354;
+                                info = '<br><br/> <br><a target="_blank" href="http://lifey.org/baltic-mission/">Click to Learn More</a>';
                                 break;
                             // Barbados Bridgetown Mission
                             case 38:
-                                name = "";
-                                x = 0;
-                                y = 0;
-                                info = '<a target="_blank" href="">Click to Learn More</a>';
-                                break;
-                            // Bavarian Mission
-                            case 39:
-                                name = "";
-                                x = 0;
-                                y = 0;
-                                info = '<a target="_blank" href="">Click to Learn More</a>';
+                                name = "Barbados Bridgetown Mission";
+                                x = 13.074171;
+                                y = -59.595721;
+                                info = '<br><br/> <br><a target="_blank" href="http://lifey.org/barbados-bridgetown-mission/">Click to Learn More</a>';
                                 break;
                             // Belgium/Netherlands Mission
+                            case 39:
+                                name = "Belgium/Netherlands Mission";
+                                x = 52.166660;
+                                y = 4.484716;
+                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/belgiumnetherlandsmission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/belgium-netherlands-mission/">Click to Learn More</a>';
+                                break;
+                            // Benin Cotonou Mission
                             case 40:
+                                name = "Benin Cotonou Mission";
+                                x = 6.370293;
+                                y = 2.391236;
+                                info = '<br><br/><iframe width="100%" height="1194" src="http://lifey.org/embed/beningcononoumission.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/benin-cotonou-mission/">Click to Learn More</a>';
+                                break;                          
+                            // Bolivia Cochabamba Mission
+                            case 41:
+                                name = "Bolivia Cochabamba Mission";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/><iframe width="100%" height="994" src="http://lifey.org/embed/boliviacochabamba.php" frameborder="0" allowfullscreen></iframe><br><a target="_blank" href="http://lifey.org/bolivia-cochabamba-mission/">Click to Learn More</a>';
+                                break;
+                            
+                            case 42:
                                 name = "";
                                 x = 0;
                                 y = 0;
-                                info = '<a target="_blank" href="">Click to Learn More</a>';
-                                break;                          
-                            // Belgium Brussels Mission
-                            // Belgium Brussels/Netherlands Mission
-                            // Benin Cotonou Mission
-                            // Bolivia Cochabamba Mission
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
+                            
+                            case 43:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
+                            
+                            case 44:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Bolivia La Paz Mission
+                            case 45:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Bolivia La Paz El Alto Mission
+                            case 46:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Bolivia Santa Cruz Mission
+                            case 47:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Bolivia Santa Cruz North Mission
+                            case 48:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Botswana Gaborone Mission
+                            case 49:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Botswana/Namibia Mission
+                            case 50:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Belém Mission
+                            case 51:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Belo Horizonte Mission
+                            case 52:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Belo Horizonte East Mission
+                            case 53:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Belo Horizonte West Mission
+                            case 54:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Brasília Mission
+                            case 55:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Campinas Mission
+                            case 56:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Cuiabá Mission
+                            case 57:
+                                name = "";
+                                x = 0;
+                                y = 0;
+                                info = '<br><br/> <br><a target="_blank" href="">Click to Learn More</a>';
+                                break;
                             // Brazil Curitiba Mission
                             // Brazil Curitiba South Mission
                             // Brazil Florianópolis Mission
@@ -825,10 +929,13 @@
                                 y = -111.658534;
                         }
 
-                        document.getElementById("test").innerHTML = "You are going to the <br>" + "<strong>" + name + "</strong><br/>" + info + "<br><br/>";
+                        document.getElementById("infoDiv").innerHTML = "You are going to the <br>" + "<strong>" + name + "</strong><br/>" + info + "<br><br/>";
                         document.getElementById("missionTitle").innerHTML = name;
 
-                    
+                    // https://www.latlong.net/
+                    // http://lifey.org/lds-missions/
+
+
                     // get location
                     var location = { lat: x, lng: y };
                     // The map, centered at location
@@ -854,6 +961,7 @@
         </div>
     </div>
     <footer>
+        <p>Credit to lifey.org for the information provided about each mission.</p>
         <p>Andrew Petersen - CIT 261</p>
 
     </footer>
