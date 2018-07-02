@@ -16,9 +16,19 @@
             width: 15em;
             height: 10em;
         } 
-        #infoDiv {
-            width: 100%;
-            
+        .embed-container { 
+            position: relative; 
+            padding-bottom: 56.25%; 
+            height: 0; 
+            overflow: hidden; 
+            max-width: 100%; 
+            } 
+        .embed-container iframe, .embed-container object, .embed-container embed { 
+            position: absolute; 
+            top: 0; 
+            left: 0;
+            width: 100%; 
+            height: 100%; 
         }
     </style>
 </head>
@@ -59,8 +69,8 @@
                 function initMap() {
                     
                     // declare min to max for rand num generator
-                    var min = 1;
-                    var max = 40;
+                    var min = 3;
+                    var max = 3;
 
                     // location info
                     var name;
@@ -93,7 +103,7 @@
                                 name = "Alabama Birmingham Mission<br> *This is the best Mission, it's the one I served in.*<br>";
                                 x = 33.520661;
                                 y = -86.802490;
-                                info = '<br><br/><iframe width="100%" height="954" src="http://lifey.org/embed/alabamabirminghammission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/alabama-birmingham-mission/">Click to Learn More</a>';
+                                info = '<div class="embed-container"><iframe src="https://www.youtube.com/embed/nFS-tAwJjhg" frameborder="0" allowfullscreen></iframe></div><br><a target="_blank" href="http://lifey.org/alabama-birmingham-mission/">Click to Learn More</a>';
                                 break;
                             // Alaska Anchorage Mission
                             case 4:
