@@ -16,9 +16,16 @@
             width: 15em;
             height: 10em;
         } 
-  
-        iframe {
-            width: 16em;
+        .infoDiv {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .infoDiv iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -78,14 +85,14 @@
                                 name = "Adriatic North Mission";
                                 x = 45.815011;
                                 y = 15.981919;
-                                info = '<iframe  height="1400" src="http://lifey.org/embed/adriaticnorthmission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/adriatic-north-mission/">Click to Learn More</a><br><br/>';
+                                info = '<iframe width="670" height="1400" src="http://lifey.org/embed/adriaticnorthmission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/adriatic-north-mission/">Click to Learn More</a><br><br/>';
                                 break;
                             // Adriatic South Mission
                             case 2:
                                 name = "Adriatic South Mission";
                                 x = 41.327546;
                                 y = 19.818698;
-                                info = '<iframe height="1074" src="http://lifey.org/embed/adriaticsouthmission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/adriatic-south-mission/">Click to Learn More</a>';
+                                info = '<iframe width="670" height="1074" src="http://lifey.org/embed/adriaticsouthmission.php" frameborder="0" allowfullscreen></iframe><a target="_blank" href="http://lifey.org/adriatic-south-mission/">Click to Learn More</a>';
                                 break;
                             // Alabama Birmingham Mission
                             case 3:
@@ -934,7 +941,7 @@
                                 y = -111.658534;
                         }
 
-                        document.getElementById("infoDiv").innerHTML = "You are going to the <br>" + "<strong>" + name + '</strong><br/><div class="frameContainer">' + info + "</div><br><br/>";
+                        document.getElementById("infoDiv").innerHTML = "You are going to the <br>" + "<strong>" + name + '</strong>' + info + "<br><br/>";
                         document.getElementById("missionTitle").innerHTML = name;
 
                     // https://www.latlong.net/
