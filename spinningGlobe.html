@@ -3,6 +3,9 @@
 <html lang="en-us">
 <head>
 <style>
+    body {
+        background: #40798c;
+    }
 .earth {
   width: 300px;
   height: 300px;
@@ -18,7 +21,7 @@
 }
 
 .earth:after {
-  position: absolute;
+  position: fixed;
   content: "";
   top: 0;
   bottom: 0;
@@ -29,19 +32,21 @@
 }
 
 .earth > div {
-  width: 200%;
+  width: 400%;
   height: 100%;
-  animation: spin 4s linear infinite;
-  background: url(https://github.com/Petersen-Andrew/CIT-261/blob/master/images/project/earthMapRectWide.jpg);
+  animation: spin 2s linear infinite;
+  background: url(https://npfrka.bn.files.1drv.com/y4mBTnJpTqpQ9WoG3l9NbE9FcOn7PU0JfFVSTk-PZt9tNIbZFyq7727KSqel1L5P40sIJJSygBf2_TGc6beTtOtE5Th8-Xhcqh2-uwSdRAbDkJSLD24UlfGBPb-GQ3KBjca7FPI4c6ILNtCu1Di6L2XeJCVqvBa9zMbTVpaFx3UpwuptdhfItGX6MxnrJ4q8XrsvWIFZrZ9F6GMGgR-X3SKrg?width=16200&height=2700&cropmode=none);
   /*orginal image at https://www.pexels.com/photo/black-green-brown-continent-87652/ */
   background-size: cover;
 }
 @keyframes spin {
-  to {
-    transform: translateX(-50%);
-  }
+    to {transform: translateX(-50%);}
+    
 }
 </style>
+<script>
+    
+</script>
 </head>
 <body>
 <div class="earth">
