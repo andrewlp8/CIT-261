@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+<!-- Load Screen Style -->
+<style>
+    /* load screen */
+    div#load_screen {
+            background: #b6d7ed;
+            opacity: 0.98;
+            position: fixed;
+            z-index: 10;
+            top: 0px;
+            width: 100%;
+            height: 2000px;
+        }
+        /* load screen */
+        div#load_screen > div#loading {
+            color: #1e2806;
+            max-width: 25%;
+            height: 24px;
+            margin: 20% 25% 60% 25%;
+            font-size: 9em;
+        }
+
+        /* load screen */
+        div.loader {
+            border: 50%;
+            border-radius: 50%;
+            border-top: 16px solid #40798c;
+            margin: 0 auto;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+        /* load screen spin */
+        @keyframes spin {
+            0% {transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+</style>
+
+
+
+<!-- Main Menu View Style -->
+<style>
+        /*Main Menu View */
+    body {
+            background: #edf5f8;
+        }
+    #title {
+        font-size: 9em;
+    }
+    button {
+        height: 9em;
+        width: 25%; 
+    }
+
+</style>
+
+<!-- Main Menu View Script -->
+<script>
+        function aboutInfo() {   
+             var x = document.getElementById("about");
+             if (x.style.display === "block") {
+                 x.style.display = "none";
+             } else {
+                 x.style.display = "block";
+             }
+         }
+         function instructions() {   
+             var x = document.getElementById("instructions");
+             if (x.style.display === "block") {
+                 x.style.display = "none";
+             } else {
+                 x.style.display = "block";
+             }
+         }   
+
+         function play() {
+            var x = document.getElementById("spinningGlobe");
+            var y = document.getElementById("containerMainMenu");
+            var z = document.getElementById("selectedMissionContainer");
+            y.style.visibility = "hidden";
+            z.style.visibility = "hidden";
+            x.style.visibility = "visible";
+            
+            
+         }
+
+</script>
+
+<!-- Load Screen Script -->
+<script>
+    // Load App function
+    window.addEventListener("load", function () {
+                setTimeout(function () {
+                    var load_screen = document.getElementById("load_screen");
+                    document.body.removeChild(load_screen);
+                }, 3000);
+                
+            });
+
+</script>
+<!-- Spinning Globe Style -->
+<style>
+.earth {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+
+.earth:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: -20px -20px 50px 2px #000 inset;
+  border-radius: 50%;
+}
+
+.earth > div {
+  width: 400%;
+  height: 100%;
+  animation: spin 2s linear infinite;
+  background: url(https://npfrka.bn.files.1drv.com/y4mBTnJpTqpQ9WoG3l9NbE9FcOn7PU0JfFVSTk-PZt9tNIbZFyq7727KSqel1L5P40sIJJSygBf2_TGc6beTtOtE5Th8-Xhcqh2-uwSdRAbDkJSLD24UlfGBPb-GQ3KBjca7FPI4c6ILNtCu1Di6L2XeJCVqvBa9zMbTVpaFx3UpwuptdhfItGX6MxnrJ4q8XrsvWIFZrZ9F6GMGgR-X3SKrg?width=16200&height=2700&cropmode=none);
+  /*orginal image at https://www.pexels.com/photo/black-green-brown-continent-87652/ */
+  background-size: cover;
+}
+@keyframes spin {
+    to {transform: translateX(-50%);}   
+}
+#textInstruction {
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: 100px;
+  margin: -40% auto auto auto;
+  color: #1e2806;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- loading Screen for game menu div -->
+<div id="load_screen">
+    <div id="loading">LDS Mission Fishin'</div>
+    <div class="loader"></div>
+</div>
+   
+<!-- Game Menu Div -->
+<div id="containerMainMenu">
+        
+    <h1 id="title">LDS Mission Fishin'</h1> 
+    
+    <!-- About Game-->
+    <button onclick="aboutInfo()">About Game</button>
+    <div id="about" style="display: none;">
+    <p>While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission. I have decided to use this idea for a project, and will work on including the removal of any conditions outside of current actual mission possibilities, so, there will be no Atlantis missions... not yet at least.</p>
+        <input type="button" value="Close" onclick="document.getElementById('about').style.display='none'">
+    </div>
+
+    <!-- Instructions -->
+    <button onclick="instructions()">How to Play</button>
+    <div id="instructions" style="display: none;">
+            <p>The object of the game is simple, to discover possibilities of where yu may get called on a mission. To play click play, click on the spinning globe, and find out where it takes you. From there you may follow the link to learn more or start a new run to discover another mission.</p>
+            <input type="button" value="Close" onclick="document.getElementById('instructions').style.display='none'">
+    </div>
+
+    <!-- Play -->
+    <button onclick="play()">Play</button>
+    
+</div>
+
+<!-- Globe Spinning View -->
+<div id="spinningGlobe" style="visibility: hidden;" >
+        <p id="textInstruction">Touch or click the spinning globe to see where you might serve!</p>
+        <div class="earth" id="globe" onclick="loadMish()">
+          <div></div>
+        </div>
+</div>
+
+<!-- Selected Mission Map View-->
+
+
+
+
+        
+</body>
+</html>
