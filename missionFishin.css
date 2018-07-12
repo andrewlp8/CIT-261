@@ -1,5 +1,10 @@
 body {
-background-image: url(images\project\fishinBackPic.jpg);
+    max-width: 100%;
+    background: url(https://lpcowq.bn.files.1drv.com/y4mDKlxyjG7VS3eO9DcfVbIzwMSYPiV3vIbqRwZJixr-fzL9uzqYPxGZH6zjcY18Q3rzbQbZQ9BIIxSX7ZELKMV-F8J7DDvMILhF8rsJK2jRac7X_W1VuRxwFLv2QdpBJOXHGFiFYq4mXCkTKz85DF4-F0u_44Ln8BWwbB_ogXJbGcooxeVr1yLRnsDRCJe3B2M3JXSFSkJy9-3Rrc30N50Ug?width=1366&height=768&cropmode=none)no-repeat right fixed; 
+    background-size: cover;
+}
+p, .selectedMissionContainer > h3,div {
+    color: #fff;
 }
 
 /* Load Screen Style */
@@ -32,7 +37,7 @@ div.loader {
     border: 50%;
     border-radius: 50%;
     border-top: 16px solid #40798c;
-    margin: 100px auto 20px auto;
+    margin: 100px auto ;
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
