@@ -1,0 +1,104 @@
+/* Load Screen Style */
+div#load_screen {
+    background: #b6d7ed;
+    opacity: 0.98;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+    height: 2000px;
+}
+div#load_screen > div#loading {
+    color: #1e2806;
+    max-width: 25%;
+    height: 24px;
+    margin: 20% 25% 60% 25%;
+    font-size: 2em;
+}
+div.loader {
+    border: 50%;
+    border-radius: 50%;
+    border-top: 16px solid #40798c;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+/* Main Menu View Style */
+#title {
+font-size: 2em;
+}
+button {
+height: 2em;
+width: 25%; 
+}
+
+/* Spinning Globe Style */
+.earth {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+  }
+  .earth:after {
+    position: fixed;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+  }
+  .earth > div {
+    width: 400%;
+    height: 100%;
+    animation: slide 2s linear infinite;
+    background: url(https://npfrka.bn.files.1drv.com/y4mBTnJpTqpQ9WoG3l9NbE9FcOn7PU0JfFVSTk-PZt9tNIbZFyq7727KSqel1L5P40sIJJSygBf2_TGc6beTtOtE5Th8-Xhcqh2-uwSdRAbDkJSLD24UlfGBPb-GQ3KBjca7FPI4c6ILNtCu1Di6L2XeJCVqvBa9zMbTVpaFx3UpwuptdhfItGX6MxnrJ4q8XrsvWIFZrZ9F6GMGgR-X3SKrg?width=16200&height=2700&cropmode=none);
+    /*orginal image at https://www.pexels.com/photo/black-green-brown-continent-87652/ */
+    background-size: cover;
+  }
+  @keyframes slide {
+      to {transform: translateX(-50%);}   
+  }
+  #textInstruction {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 100px;
+    margin: -15% auto auto auto;
+    color: #1e2806;
+  }
+
+/* Mission Map */
+#map {
+    height: 400px; 
+    width: 100%; 
+}
+.embed-container { 
+    position: relative;
+    margin-top: 25px; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    } 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+}
