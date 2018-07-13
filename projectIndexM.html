@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Title>LDS Mission Fishin'</Title>
+<script src="missionFishin.js"></script>
+<script src="load.js"></script>
+<link rel="stylesheet" type="text/css" href="missionFishin.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<script>
+    window.onload = initMap;
+</script>
+</head>
+
+<body>
+    
+
+<!-- loading Screen for game menu div -->
+<div id="load_screen">
+    <div id="loading">LDS Mission Fishin'</div><br><br/>
+    <div class="loader"></div>
+</div>
+   
+
+
+
+
+<!-- Mission Screen -->
+<div id="missionMapScreen">
+    <div id="wholeContainer">
+        <div class="selectedMissionContainer">
+                <div class="missionTag">
+                        <div id="tagContainer">
+                                <div id="blackTag2">
+                            
+                                    <div id="tagName"></div>
+                            
+                                    <div id="tagLine">
+                                        <h1>The LDS</h1>                  
+                                        <h2>Game of Discovery</h2>
+                                        <h2>Mission Fishin'</h2>
+                                    </div>
+                            
+                                </div>
+                            </div>
+                </div> 
+        
+            <!-- Google Maps API Script -->
+            
+                <h3 id="missionTitle"></h3>
+                <!--The div element for the map -->
+                <div id="map"></div><br />
+                <div id="infoDiv"></div>
+            
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
+                </script>
+            <button ><a href="projIndex.html">Play Again</a></button>
+        </div>
+        <footer>
+            <p>Credits - lifey.org</p>
+            <p>LDS Mission Fishin' - CIT 261</p>
+    
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>

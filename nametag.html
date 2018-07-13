@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NameTag</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="missionFishin.css">
+    <script src="submitTag.js"></script>
+    
+
+</head>
+<body>
+<div class="missionTag">
+<div id="tagContainer">
+    <div id="blackTag1">
+            <form class="formContent">
+                <div id="genderDiv">
+                    <input class="formContent" style="color: black;" type="radio" name="gender" value="Elder" checked> Elder
+                    <input class="formContent" style="color: black;" type="radio" name="gender" value="Sister"> Sister
+                </div>
+                <div id="nameDiv">
+                    <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
+                    <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
+                </div>
+                    <button id="tagButton" onclick="submitTag(); getTagName()">Submit</button><!--onclick="return show(this.form)"" -->
+            </form>
+
+                    <div id="tagLine">
+                    <h1>The LDS</h1>                  
+                    <h2>Game of Discovery</h2>
+                    <h2>Mission Fishin'</h2>
+                </div>
+    </div>
+
+</div>
+</div>
+<br><br/>
+<div class="missionTag">
+<div id="tagContainer">
+    <div id="blackTag2">
+
+        <div id="tagName" style="display: block;"></div>
+
+        <div id="tagLine">
+            <h1>The LDS</h1>                  
+            <h2>Game of Discovery</h2>
+            <h2>Mission Fishin'</h2>
+            <button id="testbtn" onclick="getTagName()">Submit</button><!--onclick="return show(this.form)"" -->
+                
+        </div>
+
+    </div>
+</div>
+</div>
+</body>
+</html>

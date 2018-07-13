@@ -10,15 +10,18 @@ p, .selectedMissionContainer > h3,div {
 /* Load Screen Style */
 div#load_screen {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
-background: #4c4c4c; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     opacity: 0.98;
     position: fixed;
     z-index: 10;
-    top: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 2000px;
     padding-top: 100px;
@@ -48,6 +51,18 @@ div.loader {
 }
 
 /* Main Menu View Style */
+#containerMainMenu {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
 #title {
 font-size: 2em;
 margin: 25% auto auto;
@@ -59,6 +74,18 @@ width: 25%;
 }
 
 /* Spinning Globe Style */
+#spinningGlobe {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
 .earth {
     width: 300px;
     height: 300px;
@@ -96,11 +123,77 @@ width: 25%;
   #textInstruction {
     font-size: 2em;
     text-align: center;
-    margin: -25% auto auto;
+    margin: 10% auto;
     color: #1e2806;
   }
 
+/* Mission Tag */
+#nameTagScreen {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#tagContainer {
+    margin: 10px auto;
+    width: 50%;
+}
+#blackTag1 {
+    background: #000;
+    max-width: 600px;
+    height: 300px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#blackTag2 {
+    background: #000;
+    max-width: 500px;
+    height: 250px;
+    padding: 20px;
+}
+.formContent {
+    color: white;
+    margin-left: 15px;
+}
+.formContent input {
+    color: black;
+}
+#tagButton {
+    margin-left: 15px;
+    width: 6em;
+}
+#genderDiv, #nameDiv {
+    margin: 15px auto;
+}
+#tagLine, #tagName {
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    font-family: 'Playfair Display', serif;
+}
+#tagName {
+    margin: 0 auto 3em;
+}
+
 /* Mission Map */
+#missionMapScreen {
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
 #map {
     height: 400px; 
     width: 100%; 

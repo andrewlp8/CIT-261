@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Title>LDS Mission Fishin'</Title>
+<script src="submitTag.js"></script>
+<script src="load.js"></script>
+<link rel="stylesheet" type="text/css" href="missionFishin.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+</head>
+
+<body>
+    
+
+<!-- loading Screen for game menu div -->
+<div id="load_screen">
+    <div id="loading">LDS Mission Fishin'</div><br><br/>
+    <div class="loader"></div>
+</div>
+   
+<!-- Missionary Tag User Input Screen -->
+<div id="nameTagScreen">
+    <div id="wholeContainer">
+        <div id="tagContainer">
+            <div id="blackTag1">
+                <form class="formContent">
+                    <div id="genderDiv">
+                        <input id="gender" class="formContent" style="color: black;" type="radio" name="gender" value="Elder" checked> Elder             
+                        <input id="gender" class="formContent" type="radio" name="gender" value="Sister"> Sister
+                    </div>
+                    <div id="nameDiv">
+                        <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
+                        <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
+                    </div>
+                    <button id="tagButton" onclick="newPage()">Submit</button><!--onclick="return show(this.form)"" -->
+                </form>
+
+                    <div id="tagLine">
+                    <h1>The LDS</h1>                  
+                    <h2>Game of Discovery</h2>
+                    <h2>Mission Fishin'</h2>
+                    
+                </div>
+    </div>
+    
+</div>
+    </div>
+</div>
+
+
+</body>
+</html>

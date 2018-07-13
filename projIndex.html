@@ -3,21 +3,11 @@
 <html lang="en-us">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="missionFishin.js"></script>
+<Title>LDS Mission Fishin'</Title>
+<script src="load.js"></script>
+<script src="mainMen.js"></script>
 <link rel="stylesheet" type="text/css" href="missionFishin.css">
-
-<!-- Load Screen Script -->
-<script>
-    // Load App function
-    window.addEventListener("load", function () {
-                setTimeout(function () {
-                    var load_screen = document.getElementById("load_screen");
-                    document.body.removeChild(load_screen);
-                }, 3000);
-                
-            });
-</script>
-
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
 
 <body>
@@ -29,9 +19,10 @@
     <div class="loader"></div>
 </div>
    
-<div id="wholeContainer">
-<!-- Game Menu Div -->
-<div id="containerMainMenu" style="visibility: visible;">
+
+<!-- Game Menu Screen -->
+<div id="containerMainMenu">
+        <div id="wholeContainer">
         
     <h1 id="title">LDS Mission Fishin'</h1> 
     
@@ -39,29 +30,32 @@
     <button onclick="aboutInfo()">About Game</button>
     <div id="about" style="display: none;">
     <p>While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission. I have decided to use this idea for a project, and will work on including the removal of any conditions outside of current actual mission possibilities, so, there will be no Atlantis missions... not yet at least.</p>
-        <input type="button" value="Close" onclick="document.getElementById('about').style.display='none'">
+        <button type="button" onclick="document.getElementById('about').style.display='none'">Close</button>
     </div>
 
     <!-- Instructions -->
     <button onclick="instructions()">How to Play</button>
     <div id="instructions" style="display: none;">
             <p>The object of the game is simple, to discover possibilities of where yu may get called on a mission. To play click play, click on the spinning globe, and find out where it takes you. From there you may follow the link to learn more or start a new run to discover another mission.</p>
-            <input type="button" value="Close" onclick="document.getElementById('instructions').style.display='none'">
+            <button type="button" onclick="document.getElementById('instructions').style.display='none'">Close</button>
     </div>
 
     <!-- Play -->
     <button onclick="play()">Play</button>
     
+    </div>
 </div>
 
-<!-- Globe Spinning View -->
-<div id="spinningGlobe" style="visibility: hidden;" >
+<!-- Globe Spinning Screen -->
+<div id="spinningGlobe">
+        <div id="wholeContainer">
         <p id="textInstruction">Touch or click the spinning globe to see where you might serve!</p>
-        <a href="project.html"><div class="earth" id="globe" onclick="initMap()">
+        <div class="earth" id="globe" onclick="window.location.href='projectIndexN.html'">
           <div></div>
-        </div></a>
+        </div>
+</div>
 </div>
 
-</div>
+
 </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 // load mission click spinning globe
 function initMap() {
              
