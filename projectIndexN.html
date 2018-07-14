@@ -6,6 +6,7 @@
 <Title>LDS Mission Fishin'</Title>
 <script src="submitTag.js"></script>
 <script src="load.js"></script>
+<script src="missionFishin.js" ></script>
 <link rel="stylesheet" type="text/css" href="missionFishin.css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
@@ -34,7 +35,7 @@
                         <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
                         <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
                     </div>
-                    <button id="tagButton" onclick="newPage()">Submit</button><!--onclick="return show(this.form)"" -->
+                    <div onclick="window.location.href='projectIndexN.html'"><button id="tagButton" onclick="submitTag(); initMap();">Submit</button></div><!--onclick="return show(this.form)"" -->
                 </form>
 
                     <div id="tagLine">
@@ -47,8 +48,48 @@
     
 </div>
     </div>
+
+
+ 
 </div>
 
+   <!-- Mission Screen -->
+   <div id="missionMapScreen">
+        <div id="wholeContainer">
+            <div class="selectedMissionContainer">
+                    <div class="missionTag">
+                            <div id="tagContainer">
+                                    <div id="blackTag2">
+                                
+                                        <div id="tagName"></div>
+                                
+                                        <div id="tagLine">
+                                            <h1>The LDS</h1>                  
+                                            <h2>Game of Discovery</h2>
+                                            <h2>Mission Fishin'</h2>
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                    </div> 
+            
+                <!-- Google Maps API Script -->
+                
+                    <h3 id="missionTitle"></h3>
+                    <!--The div element for the map -->
+                    <div id="map"></div><br />
+                    <div id="infoDiv"></div>
+                
+                    
+                <button ><a href="projIndex.html">Play Again</a></button>
+            </div>
+            <footer>
+                <p>Credits - lifey.org</p>
+                <p>LDS Mission Fishin' - CIT 261</p>
+        
+            </footer>
+        </div>
+    </div>
 
 </body>
 </html>

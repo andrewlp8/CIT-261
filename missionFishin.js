@@ -1,16 +1,7 @@
 
-// Globe Spinning View
-
-
-// map view
-// load mission click spinning globe
-window.onload = initMap;
+// load mission 
 function initMap() {
 
-    var missionMapS = document.getElementById("missionMapScreen"); 
-    missionMapS.style.display = "block";
-    var tagH = document.getElementById("nameTagScreen"); 
-    tagH.style.display = "none";
 
 
     // Name Tag - User Info

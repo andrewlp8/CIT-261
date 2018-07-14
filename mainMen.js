@@ -21,10 +21,20 @@ function instructions() {
 // play button
 function play() { 
     var mMenuVH = document.getElementById("containerMainMenu"); 
-    var nameTagS = document.getElementById("spinningGlobe"); 
+    var nameTagS = document.getElementById("nameTagScreen"); 
     mMenuVH.style.display = "none";   
     nameTagS.style.display = "block";
 
-    return false;
+}
+
+// to tag
+function toGlobe() {
+    var ts = document.getElementById("nameTagScreen"); 
+    var globe = document.getElementById("spinningGlobe"); 
+    var mMenuVH = document.getElementById("containerMainMenu"); 
+    mMenuVH.style.display = "none";   
+    ts.style.display = "none";
+    globe.style.display = "block";
+    event.preventDefault();
 }
 
