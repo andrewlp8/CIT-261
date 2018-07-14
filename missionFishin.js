@@ -4,20 +4,7 @@ function initMap() {
 
 
 
-    // Name Tag - User Info
-
-    var gend = document.getElementsByName("gender");
-    if(gend[0].checked) {
-        gend.value = "Elder";
-    }
-    if(gend[1].checked) {
-        gend.value = "Sister";
-    }
-    var firstName = document.getElementById('firstname');
-    var lastName = document.getElementById('lastname');
-    localStorage.setItem('gender', gend.value);
-    localStorage.setItem('firstName', firstName.value);
-    localStorage.setItem('lastName', lastName.value);
+    // Name Tag - User Inf
     
     
 // clearIt.onclick = function () {

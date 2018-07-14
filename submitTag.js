@@ -39,11 +39,13 @@ function submitTag() {
 //     return false;
 // }
 
-function newPage() {
-    window.location.href = "projectIndexM.html";
-}
+function getName() {
+    var getGender = localStorage.getItem("gender");
+    var getFirst = localStorage.getItem("firstName");
+    var getLast = localStorage.getItem("lastName");
 
-function both() {
-    submitTag();
-    newPage();
+    var display = document.getElementById("tagName").innerHTML = "<h2>" + getGender + " " + getFirst + " " + getLast + "</h2>";
+
+
+    return display;
 }

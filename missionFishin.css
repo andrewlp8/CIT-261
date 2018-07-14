@@ -155,7 +155,8 @@ width: 25%;
 }
 #blackTag2 {
     background: #000;
-    max-width: 500px;
+    width: 500px;
+    max-width: 80%;
     height: 250px;
     padding: 20px;
 }

@@ -2,7 +2,7 @@
 
 // load mission click spinning globe
 function initMap() {
-             
+             getName();
 // declare min to max for rand num generator
 var min = 1;
 var max = 100;
