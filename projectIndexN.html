@@ -6,10 +6,12 @@
 <Title>LDS Mission Fishin'</Title>
 <script src="submitTag.js"></script>
 <script src="load.js"></script>
-<script src="missionFishin.js" ></script>
+<script src="missions.js" ></script>
 <link rel="stylesheet" type="text/css" href="missionFishin.css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-
+<!-- Google Maps API Script -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
+</script>
 </head>
 
 <body>
@@ -19,38 +21,6 @@
 <div id="load_screen">
     <div id="loading">LDS Mission Fishin'</div><br><br/>
     <div class="loader"></div>
-</div>
-   
-<!-- Missionary Tag User Input Screen -->
-<div id="nameTagScreen">
-    <div id="wholeContainer">
-        <div id="tagContainer">
-            <div id="blackTag1">
-                <form class="formContent">
-                    <div id="genderDiv">
-                        <input id="gender" class="formContent" style="color: black;" type="radio" name="gender" value="Elder" checked> Elder             
-                        <input id="gender" class="formContent" type="radio" name="gender" value="Sister"> Sister
-                    </div>
-                    <div id="nameDiv">
-                        <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
-                        <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
-                    </div>
-                    <div onclick="window.location.href='projectIndexN.html'"><button id="tagButton" onclick="submitTag(); initMap();">Submit</button></div><!--onclick="return show(this.form)"" -->
-                </form>
-
-                    <div id="tagLine">
-                    <h1>The LDS</h1>                  
-                    <h2>Game of Discovery</h2>
-                    <h2>Mission Fishin'</h2>
-                    
-                </div>
-    </div>
-    
-</div>
-    </div>
-
-
- 
 </div>
 
    <!-- Mission Screen -->
