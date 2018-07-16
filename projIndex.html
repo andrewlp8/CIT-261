@@ -83,13 +83,52 @@
 <!-- Globe Spinning Screen -->
 <div id="spinningGlobe">
         <div id="wholeContainer">
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
+                </script>
         <p id="textInstruction">Touch or click the spinning globe to see where you might serve!</p>
-        <div class="earth" id="globe" onclick="window.location.href='projectIndexN.html'">
+        <div class="earth" id="globe" onclick="initMap(); toMap();">
           <div></div>
         </div>
 </div>
 </div>
 
+   <!-- Mission Screen -->
+   <div id="missionMapScreen">
+    <div id="wholeContainer">
+        <div class="selectedMissionContainer">
+                <div class="missionTag">
+                        <div id="tagContainer">
+                                <div id="blackTag2">
+                            
+                                    <div id="tagName"></div>
+                            
+                                    <div id="tagLine">
+                                        <h1>The LDS</h1>                  
+                                        <h2>Game of Discovery</h2>
+                                        <h2>Mission Fishin'</h2>
+                                    </div>
+                            
+                                </div>
+                            </div>
+                </div> 
+        
+            <!-- Google Maps API Script -->
+            
+                <h3 id="missionTitle"></h3>
+                <!--The div element for the map -->
+                <div id="map"></div><br />
+                <div id="infoDiv"></div>
+            
+                
+            <button ><a href="projIndex.html">Play Again</a></button>
+        </div>
+        <footer>
+            <p>Credits - lifey.org</p>
+            <p>LDS Mission Fishin' - CIT 261</p>
+    
+        </footer>
+    </div>
+</div>
 
 </body>
 </html>
