@@ -47,3 +47,6 @@ function toMap() {
     event.preventDefault();
 }
 
+function playAgain() {
+    window.location.assign("projIndex.html");
+}
