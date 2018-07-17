@@ -10,6 +10,11 @@ p, .selectedMissionContainer > h3,div {
     margin: 0 10px;
     padding: 20px 10px;
 }
+.flexContainer {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+}
 /* Load Screen Style */
 div#load_screen {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
@@ -65,15 +70,128 @@ div.loader {
     bottom: 0;
     z-index: 2;
 }
+/* Floatin Buttons */
+    /* up n down */
+.floatAnimationVertical {  
+    animation-name: floater1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes floater1 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
+    /* side to side */
+.floatAnimationHorizontal {  
+    animation-name: floater2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin: 0 5px 0 auto;
+}
 
+@keyframes floater2 {
+    from { transform: translate(0px,  0); }
+    65%  { transform: translate(10px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+
+/* Main Title */
 #title {
 font-size: 2em;
-margin: 25% auto auto;
+margin: 2em auto;
 text-align: center;
 }
-button {
-height: 4em;
-width: 25%; 
+/* About Button */
+#aboutBtn {
+    margin-top: 5px;
+    align-self: flex-start;
+    font-size: 2em;
+}
+#instructiontBtn {
+    margin-top: 2em;
+    align-self: flex-end;
+    font-size: 2em;
+
+}
+/* The Play Button */
+.playPulse {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(18,71,1, 0.4);
+    animation: playPulse 1.5s infinite;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .pulse:hover {
+    animation: none;
+  } 
+  @keyframes playPulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(18,71,1, 0.4);
+    }
+    30% {
+        box-shadow: 0 0 0 10px rgba(18,71,1, 0.1);
+    }
+    75% {
+        box-shadow: 0 0 0 10px rgba(18,71,1, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(18,71,1, 0);
+    }
+  }
+#playBtn {
+    align-self: center;
+}
+#playBtnImg:hover {
+    cursor: pointer;
+}
+#playBtnImg {
+    width: 120px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modalContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.modalText {
+    color: black;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Spinning Globe Style */
@@ -131,6 +249,18 @@ width: 25%;
   }
 
 /* Mission Tag */
+#tagPointerContainer {
+    align-self: center;
+    margin-top: 75px;
+    z-index: 2;
+}
+#tagPointer {
+    
+    margin-top: -10px;    
+}
+#tagInfo {
+    text-align: center;
+}
 #nameTagScreen {
     position: fixed;
     display: none;
@@ -144,12 +274,11 @@ width: 25%;
 }
 #tagContainer {
     margin: 0 auto;
-    max-width: 400px;
 }
 #blackTag1 {
     background: #000;
     max-width: 100%;
-    height: 400px;
+    height: 225px;
     padding: 20px;
     position: fixed;
     top: 50%;
@@ -158,7 +287,8 @@ width: 25%;
 }
 #blackTag2 {
     background: #000;
-    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1150px;
     height: 250px;
     padding: 20px;
 }
@@ -238,4 +368,30 @@ width: 25%;
 #infoDiv {
     text-align: center;
     font-size: 1.5em;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#infoDiv a:link {
+    text-decoration: none;
+    color: white;
+}
+#infoDiv a:visited {
+    text-decoration: none;
+    color: white;
+}
+#infoDiv a:hover, a:active {
+    font-size: 1.5em;
+    color: #124701;
+}
+#playAgainBtn {
+    float: right;
+    width: 6em;
+    height: 3em;
+    transition: all .2s ease-in-out;
+}
+#playAgainBtn:hover {
+    transform: scale(1.5);
+}
+#footerTitle {
+    clear: left;
 }

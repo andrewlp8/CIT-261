@@ -21,37 +21,67 @@
     <div class="loader"></div>
 </div>
    
-
 <!-- Game Menu Screen -->
 <div id="containerMainMenu">
         <div class="wholeContainer">
-        
+                <div class="flexContainer">
+                    <!-- About Game-->
+                    <div class="floatAnimationVertical">
+    <button id="aboutBtn" onclick="aboutInfo()">About</button>
+</div>
+    <div id="about" class="modal">
+        <div class="modalContent">
+    <span class="close">&times;</span><p class="modalText">About the Game</p>
+    <p class="modalText">While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission. The object of the game is simple, to discover possibilities of where you may get called on a mission.  I have decided to use this idea for a class project.</p>
+        </div>
+    </div>
+
     <h1 id="title">LDS Mission Fishin'</h1> 
     
-    <!-- About Game-->
-    <button onclick="aboutInfo()">About Game</button>
-    <div id="about" style="display: none;">
-    <p>While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission. I have decided to use this idea for a project, and will work on including the removal of any conditions outside of current actual mission possibilities, so, there will be no Atlantis missions... not yet at least.</p>
-        <button type="button" onclick="document.getElementById('about').style.display='none'">Close</button>
-    </div>
 
+        <!-- Play -->
+        
+    <div id="playBtn" onclick="play()"><span class="playPulse"><img id="playBtnImg" src="images/project/play.png"></span></div>
+
+
+    
+
+    
     <!-- Instructions -->
-    <button onclick="instructions()">How to Play</button>
-    <div id="instructions" style="display: none;">
-            <p>The object of the game is simple, to discover possibilities of where yu may get called on a mission. To play click play, click on the spinning globe, and find out where it takes you. From there you may follow the link to learn more or start a new run to discover another mission.</p>
-            <button type="button" onclick="document.getElementById('instructions').style.display='none'">Close</button>
-    </div>
+    <div class="floatAnimationHorizontal">
+    <button id="instructiontBtn" onclick="instructions()">How to Play</button>
+</div>
 
-    <!-- Play -->
-    <button onclick="play()">Play</button>
+    <div id="instructions" class="modal">
+            <div class="modalContent">
+            <span class="close">&times;</span><p class="modalText">How to Play the Game</p>
+            <p class="modalText">To play click the green play button, enter your information, click or touch the screen after the globe gets spinning, and find out where it takes you.</p> 
+                <p class="modalText">From there you may follow the link to learn more or start a new run to land yourself on another mission.</p>
+                <P class="modalText">Enjoy!</P>
+            </div>
+            </div>
+
+    
+    
     
     </div>
+</div>
 </div>
 
 <!-- Name Tag Screen -->
 <div id="nameTagScreen">
         <div class="wholeContainer">
+                <div class="flexContainer">
+                    
+                        <div id="tagPointerContainer">
+                                <p id="tagInfo">Enter your info here: </p>
+                                
+                                        <div class="floatAnimationVertical" id="tagPointer">
+                                <img src="images\project\cursor1.png" style="width: 50px;">
+                                </div>
+                            </div>
             <div id="tagContainer">
+                    
                 <div id="blackTag1">
                     <form class="formContent">
                         <div id="genderDiv">
@@ -65,16 +95,17 @@
                         <button id="tagButton" onclick="submitTag(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
                     </form>
     
-                        <div id="tagLine">
+                        <!-- <div id="tagLine">
                         <p id="tagTitle">The LDS</p>                  
                         <p class="tagT2">Game of Discovery</p>
-                        <p class="tagT2">Mission Fishin'</p>
+                        <p class="tagT2">Mission Fishin'</p> -->
                         
                     </div>
         </div>
         
     </div>
         </div>
+    </div>
     
     
      
@@ -85,16 +116,20 @@
         <div class="wholeContainer">
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
                 </script>
-        <p id="textInstruction">Touch or click the spinning globe to see where you might serve!</p>
-        <div class="earth" id="globe" onclick="initMap(); toMap();">
-          <div></div>
+        <p id="textInstruction">Touch or click anywhere to see where you might serve!</p>
+        <span onclick="initMap(); toMap();">
+            <div class="earth" id="globe" >
+                <div></div>  
+        
         </div>
+    </span>
 </div>
 </div>
 
    <!-- Mission Screen -->
    <div id="missionMapScreen">
     <div class="wholeContainer">
+
         <div class="selectedMissionContainer">
                 <div class="missionTag">
                         <div id="tagContainer">
@@ -118,11 +153,13 @@
                 <div id="infoDiv"></div>
             
                 
-            <button onclick="playAgain()">Play Again</button>
+                <div class="floatAnimationHorizontal"> <button id="playAgainBtn" onclick="playAgain()">Play Again</button>
         </div>
+        </div>
+
         <footer>
             <p>Credits - lifey.org</p>
-            <p>LDS Mission Fishin' - CIT 261</p>
+            <p id="footerTitle">LDS Mission Fishin' - CIT 261</p>
     
         </footer>
     </div>

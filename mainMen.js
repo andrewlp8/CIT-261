@@ -1,20 +1,50 @@
 
+
+
 // about button
-function aboutInfo() {   
-    var x = document.getElementById("about");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
+function aboutInfo() {
+    var modal = document.getElementById('about');
+    var span = document.getElementsByClassName("close")[0];
+
+    modal.style.display = "block";
+    
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+       
     }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    
 }
+
+
 // instructions button
 function instructions() {   
-    var x = document.getElementById("instructions");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
+    var modal = document.getElementById('instructions');
+    var span = document.getElementsByClassName("close")[1];
+
+    modal.style.display = "block";
+    
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+       
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+           
+        }
     }
 }   
 
