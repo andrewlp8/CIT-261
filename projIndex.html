@@ -21,49 +21,65 @@
     <div class="loader"></div>
 </div>
    
+<!-- Audio -->
+<audio id="clickSound">
+    <source src="audio\project\click.wav" type="audio/wav">
+    <source src="audio\project\click.mp3" type="audio/mp3">       
+</audio>
+
 <!-- Game Menu Screen -->
 <div id="containerMainMenu">
-        <div class="wholeContainer">
-                <div class="flexContainer">
-                    <!-- About Game-->
-                    <div class="floatAnimationVertical">
-    <button id="aboutBtn" onclick="aboutInfo()">About</button>
-</div>
+<div class="wholeContainer">
+        
+    <div class="flexContainer">
+        
+    <!-- About Game-->
+    <div class="floatAnimationVertical">
+        <button id="aboutBtn" onclick="aboutInfo(); clickSound();">About</button>
+    </div>
     <div id="about" class="modal">
         <div class="modalContent">
-    <span class="close">&times;</span><p class="modalText">About the Game</p>
-    <p class="modalText">While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission. The object of the game is simple, to discover possibilities of where you may get called on a mission.  I have decided to use this idea for a class project.</p>
+            <span class="close" onclick="clickSound()">&times;</span><p class="modalText">About the Game</p>
+            <p class="modalText">While growing up my family use to enjoy playing a game of spinning a globe with our eyes closed and point to a random location to see where we will serve on a mission. The object of the game is simple, to discover possibilities of where you may get called on a mission.  I have decided to use this idea for a class project.</p>
         </div>
     </div>
 
     <h1 id="title">LDS Mission Fishin'</h1> 
     
+    <!-- Play -->    
+    <div id="playBtn" onclick="play(); clickSound();"><span class="playPulse"><img id="playBtnImg" src="images/project/play.png"></span></div>
 
-        <!-- Play -->
-        
-    <div id="playBtn" onclick="play()"><span class="playPulse"><img id="playBtnImg" src="images/project/play.png"></span></div>
-
-
-    
-
-    
     <!-- Instructions -->
     <div class="floatAnimationHorizontal">
-    <button id="instructiontBtn" onclick="instructions()">How to Play</button>
-</div>
-
+        <button id="instructiontBtn" onclick="instructions(); clickSound();">How to Play</button>
+    </div>
     <div id="instructions" class="modal">
-            <div class="modalContent">
+        <div class="modalContent">
             <span class="close">&times;</span><p class="modalText">How to Play the Game</p>
             <p class="modalText">To play click the green play button, enter your information, click or touch the screen after the globe gets spinning, and find out where it takes you.</p> 
-                <p class="modalText">From there you may follow the link to learn more or start a new run to land yourself on another mission.</p>
-                <P class="modalText">Enjoy!</P>
-            </div>
-            </div>
+            <p class="modalText">From there you may follow the link to learn more or start a new run to land yourself on another mission.</p>
+            <P class="modalText">Enjoy!</P>
+        </div>
+    </div>
+    </div>
 
-    
-    
-    
+    <!-- Music -->
+    <div class="floatAnimationHorizontal">
+            <button id="musicBtn" onclick="musicOpts(); clickSound();">Sound Options</button>
+    </div>
+    <div id="musicContainer" class="modal">
+            <div class="modalContent">
+                    <span class="close">&times;</span>
+            <audio autoplay loop id="backMusic" src="audio\project\backgroundMusic.mp3" type="audio/mp3"></audio>
+            <div id="musicControl">
+                <p class="modalText">Backround Music ON/OFF</p>
+            <button onclick="musicON_OFF(); clickSound();">ON/OFF</button>
+            <p class="modalText">Volume</p>
+            <button onclick="volumeHigh(); clickSound();">High</button>
+            <button onclick="volumeMedium(); clickSound();">Medium</button>
+            <button onclick="volumeLow(); clickSound();">Low</button>
+            </div>
+        </div>
     </div>
 </div>
 </div>
@@ -72,6 +88,7 @@
 <div id="nameTagScreen">
         <div class="wholeContainer">
                 <div class="flexContainer">
+                    
                     
                         <div id="tagPointerContainer">
                                 <p id="tagInfo">Enter your info here: </p>
@@ -92,24 +109,16 @@
                             <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
                             <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
                         </div>
-                        <button id="tagButton" onclick="submitTag(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
+                        <button id="tagButton" onclick="submitTag(); clickSound(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
                     </form>
-    
-                        <!-- <div id="tagLine">
-                        <p id="tagTitle">The LDS</p>                  
-                        <p class="tagT2">Game of Discovery</p>
-                        <p class="tagT2">Mission Fishin'</p> -->
                         
                     </div>
         </div>
         
     </div>
         </div>
-    </div>
-    
-    
-     
 </div>
+    
 
 <!-- Globe Spinning Screen -->
 <div id="spinningGlobe">
@@ -117,7 +126,7 @@
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
                 </script>
         <p id="textInstruction">Touch or click anywhere to see where you might serve!</p>
-        <span onclick="initMap(); toMap();">
+        <span onclick="clickSound(); initMap(); toMap();">
             <div class="earth" id="globe" >
                 <div></div>  
         
@@ -127,7 +136,7 @@
 </div>
 
    <!-- Mission Screen -->
-   <div id="missionMapScreen">
+<div id="missionMapScreen">
     <div class="wholeContainer">
 
         <div class="selectedMissionContainer">
@@ -153,7 +162,7 @@
                 <div id="infoDiv"></div>
             
                 
-                <div class="floatAnimationHorizontal"> <button id="playAgainBtn" onclick="playAgain()">Play Again</button>
+                <div class="floatAnimationHorizontal"><button id="playAgainBtn" onclick="clickSound(); playAgain();">Play Again</button>
         </div>
         </div>
 
