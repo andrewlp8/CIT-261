@@ -116,8 +116,8 @@ function volumeLow() {
     vol.volume = 0.2;
 }
 
-function musicOpts() {
-    var modal = document.getElementById('musicContainer');
+function musicOptsMain() {
+    var modal = document.getElementById('musicContainer1');
     var span = document.getElementsByClassName("close")[2];
 
     modal.style.display = "block";
@@ -136,4 +136,31 @@ function musicOpts() {
            
         }
     }
+}
+function musicOptsMap() {
+    var modal = document.getElementById('musicContainerMap');
+    var span = document.getElementsByClassName("close")[3];
+
+    modal.style.display = "block";
+    
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+       
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+           
+        }
+    }
+}
+
+function celebrate() {
+    var celS = document.getElementById('celebrateSound');
+
+    celS.play();
 }

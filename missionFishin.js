@@ -32,11 +32,7 @@ function getName() {
 
 getName();
     
-
-
-    
-    
-             
+      
     // declare min to max for rand num generator
     var min = 1;
     var max = 100;
@@ -3074,7 +3070,9 @@ getName();
 
         document.getElementById("infoDiv").innerHTML = "Here is some more information about the <br>" + "<strong>" + name + '</strong>' + info + "<br><br/>";
         document.getElementById("missionTitle").innerHTML = "Congratulations " + getFirst + "!<br/> You have landed on the <br/> "+ name;
-    
+
+
+
     // https://www.latlong.net/
     // http://lifey.org/lds-missions/
     

@@ -26,6 +26,8 @@
     <source src="audio\project\click.wav" type="audio/wav">
     <source src="audio\project\click.mp3" type="audio/mp3">       
 </audio>
+<audio autoplay loop id="backMusic" src="audio\project\backgroundMusic.mp3" type="audio/mp3"></audio>
+            
 
 <!-- Game Menu Screen -->
 <div id="containerMainMenu">
@@ -65,12 +67,11 @@
 
     <!-- Music -->
     <div class="floatAnimationHorizontal">
-            <button id="musicBtn" onclick="musicOpts(); clickSound();">Sound Options</button>
+            <button id="musicBtn" onclick="musicOptsMain(); clickSound();">Sound Options</button>
     </div>
-    <div id="musicContainer" class="modal">
+    <div id="musicContainer1" class="modal">
             <div class="modalContent">
                     <span class="close">&times;</span>
-            <audio autoplay loop id="backMusic" src="audio\project\backgroundMusic.mp3" type="audio/mp3"></audio>
             <div id="musicControl">
                 <p class="modalText">Backround Music ON/OFF</p>
             <button onclick="musicON_OFF(); clickSound();">ON/OFF</button>
@@ -126,12 +127,16 @@
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
                 </script>
         <p id="textInstruction">Touch or click anywhere to see where you might serve!</p>
-        <span onclick="clickSound(); initMap(); toMap();">
+        <span onclick="clickSound(); initMap(); toMap(); celebrate();">
             <div class="earth" id="globe" >
                 <div></div>  
         
         </div>
     </span>
+    <audio id="celebrateSound">
+            <source src="audio\project\yahoo.wav" type="audio/wav">
+            <source src="audio\project\yahoo.mp3" type="audio/mp3">       
+        </audio>
 </div>
 </div>
 
@@ -160,7 +165,23 @@
                 <!--The div element for the map -->
                 <div id="map"></div><br />
                 <div id="infoDiv"></div>
-            
+            <!-- Music -->
+    <div class="floatAnimationHorizontal">
+            <button id="musicBtn" onclick="musicOptsMap(); clickSound();">Sound Options</button>
+    </div>
+    <div id="musicContainerMap" class="modal">
+            <div class="modalContent">
+                    <span class="close">&times;</span>
+            <div id="musicControl">
+                <p class="modalText">Backround Music ON/OFF</p>
+            <button onclick="musicON_OFF(); clickSound();">ON/OFF</button>
+            <p class="modalText">Volume</p>
+            <button onclick="volumeHigh(); clickSound();">High</button>
+            <button onclick="volumeMedium(); clickSound();">Medium</button>
+            <button onclick="volumeLow(); clickSound();">Low</button>
+            </div>
+        </div>
+    </div>
                 
                 <div class="floatAnimationHorizontal"><button id="playAgainBtn" onclick="clickSound(); playAgain();">Play Again</button>
         </div>
