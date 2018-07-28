@@ -1,4 +1,15 @@
-body {
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+        <script src="load.js"></script>
+        <script src="mainMen.js"></script>
+        <script src="submitTag.js"></script>
+        <script src="practiceJson.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5SkkoO8CpvL-c5nuG-VEBrKb6608VOMs&callback=initMap">
+        </script>
+        <style>
+            body {
     max-width: 100%;
     min-height: 100%;
     background: url(https://lpcowq.bn.files.1drv.com/y4mDKlxyjG7VS3eO9DcfVbIzwMSYPiV3vIbqRwZJixr-fzL9uzqYPxGZH6zjcY18Q3rzbQbZQ9BIIxSX7ZELKMV-F8J7DDvMILhF8rsJK2jRac7X_W1VuRxwFLv2QdpBJOXHGFiFYq4mXCkTKz85DF4-F0u_44Ln8BWwbB_ogXJbGcooxeVr1yLRnsDRCJe3B2M3JXSFSkJy9-3Rrc30N50Ug?width=1366&height=768&cropmode=none)no-repeat right fixed; 
@@ -62,7 +73,7 @@ div.loader {
 /* Main Menu View Style */
 #containerMainMenu {
     position: fixed;
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     top: 0;
@@ -345,7 +356,7 @@ text-align: center;
 
 /* Mission Map */
 #missionMapScreen {
-    display: none;
+    display: block;
     width: 100%;
     height: 100%;
     top: 0;
@@ -409,3 +420,64 @@ text-align: center;
 #footerTitle {
     clear: left;
 }
+       
+
+        </style>
+</head>
+<body>
+ <!-- Mission Screen -->
+ <div id="missionMapScreen">
+        <div class="wholeContainer">
+    
+            <div class="selectedMissionContainer">
+                    <div class="missionTag">
+                            <div id="tagContainer">
+                                    <div id="blackTag2">
+                                
+                                        <div id="tagName"></div>
+                                
+                                        <div id="tagLine">
+                                            <h1>The LDS</h1>                  
+                                            <h2>Game of Discovery</h2>
+                                            <h2>Mission Fishin'</h2>
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                    </div>    
+                
+                    <h3 id="missionTitle"></h3>
+                    <!--The div element for the map -->
+                    <div id="map"></div><br />
+                    <div id="infoDiv"></div>
+                <!-- Music -->
+        <div class="floatAnimationHorizontal">
+                <button id="musicBtn" onclick="musicOptsMap(); clickSound();">Sound Options</button>
+        </div>
+        <div id="musicContainerMap" class="modal">
+                <div class="modalContent">
+                        <span class="close">&times;</span>
+                <div id="musicControl">
+                    <p class="modalText">Backround Music ON/OFF</p>
+                <button onclick="musicON_OFF(); clickSound();">ON/OFF</button>
+                <p class="modalText">Volume</p>
+                <button onclick="volumeHigh(); clickSound();">High</button>
+                <button onclick="volumeMedium(); clickSound();">Medium</button>
+                <button onclick="volumeLow(); clickSound();">Low</button>
+                </div>
+            </div>
+        </div>
+                    
+                    <div class="floatAnimationHorizontal"><button id="playAgainBtn" onclick="initMap(); toMap(); celebrate();">Play Again</button>
+            </div>
+            </div>
+    
+            <footer>
+                <p>Credits - lifey.org</p>
+                <p id="footerTitle">LDS Mission Fishin' - CIT 261</p>
+        
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

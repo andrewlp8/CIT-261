@@ -1,0 +1,16 @@
+{
+    "missions": [
+        {
+            "name": "Adriatic North Mission",
+            "x": 45.815011,
+            "y": 15.981919,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/VdsWt0pMxW4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-north-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Adriatic South Mission",
+            "x": 41.327546,
+            "y": 19.818698,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/lw7WE6-5iL8?list=PLo6WmFbBTUezdwzrj7IwjBZTm96UKqv5T' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-south-mission/'>Click to Learn More</a><br><br/>"
+        }           
+    ]
+}
