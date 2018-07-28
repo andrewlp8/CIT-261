@@ -13,28 +13,41 @@
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/lw7WE6-5iL8?list=PLo6WmFbBTUezdwzrj7IwjBZTm96UKqv5T' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-south-mission/'>Click to Learn More</a><br><br/>"
         },         
         {
-            "name": "3 Adriatic North Mission",
-            "x": 45.815011,
-            "y": 15.981919,
-            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/VdsWt0pMxW4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-north-mission/'>Click to Learn More</a><br><br/>"
+            "name": "Alabama Birmingham Mission<br> *This is the best Mission, it's the one I served in.*<br>",
+            "x": 33.520661,
+            "y": -86.802490,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/nFS-tAwJjhg' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/alabama-birmingham-mission/'>Click to Learn More</a><br><br/>"
         },
         {
-            "name": "4 Adriatic South Mission",
-            "x": 41.327546,
-            "y": 19.818698,
-            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/lw7WE6-5iL8?list=PLo6WmFbBTUezdwzrj7IwjBZTm96UKqv5T' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-south-mission/'>Click to Learn More</a><br><br/>"
+            "name": "Alaska Anchorage Mission",
+            "x": 61.218056,
+            "y": -149.900278,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/lw7WE6-5iL8?list=PLo6WmFbBTUezdwzrj7IwjBZTm96UKqv5T' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/alaska-anchorage-mission/'>Click to Learn More</a><br><br/>"
         },   
         {
-            "name": "5 Adriatic North Mission",
-            "x": 45.815011,
-            "y": 15.981919,
-            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/VdsWt0pMxW4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-north-mission/'>Click to Learn More</a><br><br/>"
+            "name": "Alpine German Speaking Mission",
+            "x": 48.135125,
+            "y": 11.581980,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/hW-foUHFv3E' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/alpine-german-speaking-mission/'>Click to Learn More</a><br><br/>"
         },
         {
-            "name": "6 Adriatic South Mission",
-            "x": 41.327546,
-            "y": 19.818698,
-            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/lw7WE6-5iL8?list=PLo6WmFbBTUezdwzrj7IwjBZTm96UKqv5T' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/adriatic-south-mission/'>Click to Learn More</a><br><br/>"
-        }     
+            "name": "Angola Luanda Mission",
+            "x": -8.839988,
+            "y": 13.289437,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/pAqKrKP7liQ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/angola-luanda-mission/'>Click to Learn More</a><br><br/>"
+        },    
+        {
+            "name": "Argentina Bahía Blanca Mission",
+            "x": -34.603684,
+            "y": -58.381559,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/NyIxz1YmooE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/argentina-bahia-blanca-mission/'>Click to Learn More</a><br><br/>"
+        },   
+        {
+            "name": "Argentina Buenos Aires East Mission",
+            "x": -34.608006,
+            "y": -58.374995,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>Interesting facts about Buenos Aires</h3><ol><li>People greet each other with a kiss on the cheek.</li><li>The Tango dance originated in Buenos Aires.</li><li>About a third of Argentinians live in the province of Buenos Aires.</li><li>The street Avenida 9 de Julio is one of the widest in the world, with 16 lanes.</li><li>The founders of Stripe lived in Buenos Aires in the early days of the company.</li><li>The University of Buenos Aires was founded in 1821.</li><li>The main soccer teams are River, Plata, San Lorenzo and Indepediente.</li><li>People living in the Capital are called Portenos.</li><li>The majority of people in Buenos Aires are classified as Caucasians.</li><li>The only operating LDS temple in Argentina is in Buenos Aires, as is the Argentina MTC.</li></ol></div><br><a target='_blank' href='http://lifey.org/argentina-buenos-aires-east-mission/'>Click to Learn More</a>"
+        } 
     ]
 }
+    
