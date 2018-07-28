@@ -4,19 +4,21 @@
 function initMap() {
              getName();
 // declare min to max for rand num generator
-var min = 1;
-var max = 2;
+var min = 0;
+var max = 5;
 
 
 
 var missionRandom = Math.floor(Math.random() * (max - min + 1) + min);
+var j = missionRandom;
+
 // Pull mission data from missions.json file here
 // AJAX Example
 var myRequest = new XMLHttpRequest();
 myRequest.open('GET', 'https://raw.githubusercontent.com/Petersen-Andrew/CIT-261/master/missions.json');
 myRequest.onload = function () {
     var myData = JSON.parse(myRequest.responseText);
-    var j = missionRandom;
+    
 
     // name of location & info
     var name = (myData.missions[j].name);
@@ -35,7 +37,7 @@ myRequest.onload = function () {
     // }
         
 
-    document.getElementById('divOut').innerHTML = "<h4>" + name + "</h4>" + info + x + y;
+    document.getElementById('testOut').innerHTML = j + "<h4>" + name + "</h4>" + info + x + "<br/>" + y;
     
 
 
