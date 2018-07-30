@@ -779,7 +779,157 @@
             "x": 39.935051,
             "y": -105.071185,
             "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/colorado-denver-north-mission/'>Click to Learn More</a>"
-        }  
+        },
+        {
+            "name": "Colorado Denver South Mission",
+            "x": 39.633575,
+            "y": -104.976398,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/colorado-denver-south-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Colorado Fort Collins Mission",
+            "x": 40.487426,
+            "y": -104.895725,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/colorado-fort-collins-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Connecticut Hartford Mission",
+            "x": 41.827936,
+            "y": -72.735254,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/connecticut-hartford-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Costa Rica San Jose East Mission",
+            "x": 9.928069,
+            "y": -84.090725,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/costa-rica-san-jose-east-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Costa Rica San Jose West Mission",
+            "x": 9.928069,
+            "y": -84.090725,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/costa-rica-san-jose-west-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Czech/Slovak Mission",
+            "x": 50.097040,
+            "y": 14.407552,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/czech-slovak-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Democratic Republic of the Congo Kinshasa Mission",
+            "x": -4.325537,
+            "y": 15.287307,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/democratic-republic-of-the-congo-kinshasa-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Democratic Republic of the Congo Lubumbashi Mission",
+            "x": -11.666400,
+            "y": 27.465332,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/democratic-republic-of-the-congo-lubumbashi-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Democratic Republic of the Congo Mbuji-Mayi Mission",
+            "x": -6.112832,
+            "y": 23.592961,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/democratic-republic-of-the-congo-mbuji-mayi-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Denmark Copenhagen Mission",
+            "x": 55.693996,
+            "y": 12.532343,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/denmark-copenhagen-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Dominican Republic Santiago Mission",
+            "x": 19.432834,
+            "y": -70.692503,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/dominican-republic-santiago-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Dominican Republic Santo Domingo East Mission",
+            "x": 18.431954,
+            "y": -69.672097,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/dominican-republic-santo-domingo-east-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Dominican Republic Santo Domingo West Mission",
+            "x": 18.431954,
+            "y": -69.672097,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/dominican-republic-santo-domingo-west-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Ecuador Guayaquil North Mission",
+            "x": -2.170998,
+            "y": -79.922359,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/ecuador-guayaquil-north-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Ecuador Guayaquil South Mission",
+            "x": -2.170998,
+            "y": -79.922359,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/ecuador-guayaquil-south-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Ecuador Guayaquil West Mission",
+            "x": -2.170998,
+            "y": -79.922359,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/ecuador-guayaquil-west-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Ecuador Quito Mission",
+            "x": -0.177428,
+            "y": -78.485941,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/ecuador-quito-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Ecuador Quito North Mission",
+            "x": -0.280079,
+            "y": -78.494371,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/ecuador-quito-north-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "El Salvador San Salvador East Mission",
+            "x": 13.692940,
+            "y": -89.218191,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/el-salvador-san-salvador-east-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "El Salvador Santa Ana Mission",
+            "x": 13.977828,
+            "y": -89.563912,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/el-salvador-santa-ana-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "England Birmingham Mission",
+            "x": 52.535598,
+            "y": -1.813402,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/england-birmingham-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "England Leeds Mission",
+            "x": 53.845716,
+            "y": -1.632016,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/england-leeds-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "England London Mission",
+            "x": 51.497811,
+            "y": -0.173445,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/england-london-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "England London South Mission",
+            "x": 51.162969,
+            "y": -0.052985,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/england-london-south-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "England Manchester Mission",
+            "x": 51.162969,
+            "y": -0.052985,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/england-manchester-mission/'>Click to Learn More</a>"
+        }
     ]
 }
     
