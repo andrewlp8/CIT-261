@@ -929,6 +929,132 @@
             "x": 51.162969,
             "y": -0.052985,
             "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/england-manchester-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Fiji Suva Mission",
+            "x": -18.119757,
+            "y": 178.438600,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/fiji-suva-mission'>Click to Learn More</a>"
+        },
+            {
+            "name": "Finland Helsinki Mission",
+            "x": 60.216156,
+            "y": 24.818620,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/finland-helsinki-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Florida Fort Lauderdale Mission",
+            "x": 26.114294,
+            "y": -80.257702,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/florida-fort-lauderdale-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Florida Jacksonville Mission",
+            "x": 30.228384,
+            "y": -81.577941,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/florida-jacksonville-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Florida Orlando Mission",
+            "x": 28.411976,
+            "y": -81.402054,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/florida-orlando-mission/'>Click to Learn More</a>"
+        },
+            {
+            "name": "Florida Tallahassee Mission",
+            "x": 30.505403,
+            "y": -84.245208,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/florida-tallahassee-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Florida Tampa Mission",
+            "x": 28.069828,
+            "y": -82.414582,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/florida-tampa-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "France Lyon Mission",
+            "x": 45.754046,
+            "y": 4.855887,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/france-lyon-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "France Paris Mission",
+            "x": 48.897794,
+            "y": 2.113448,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/france-paris-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Georgia Atlanta Mission",
+            "x": 33.428097,
+            "y": -84.555756,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/georgia-atlanta-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Georgia Atlanta North Mission",
+            "x": 33.853136,
+            "y": -84.111395,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/georgia-atlanta-north-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Georgia Macon Mission",
+            "x": 32.897214,
+            "y": -83.704385,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/georgia-macon-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Germany Berlin Mission",
+            "x": 52.419220,
+            "y": 13.337620,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/germany-berlin-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Germany Frankfurt Mission",
+            "x": 50.105959,
+            "y": 8.775028,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/germany-frankfurt-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Ghana Accra Mission",
+            "x": 5.565191,
+            "y": -0.250994,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/fGGkclfc6w8?list=PLo6WmFbBTUexLc2vwsd7i9jwusoidTkGV' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/ghana-accra-mission/'>Click to Learn More</a><br><br/>"
+        },      
+        {
+            "name": "Ghana Cape Coast Mission",
+            "x": 5.131510,
+            "y": -1.279474,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/0kJIqUwD0RI?list=PLo6WmFbBTUezJC3qARKF5zxp9DSE5w1DN' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/ghana-cape-coast-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Ghana Kumasi Mission",
+            "x": 6.666600,
+            "y": -1.616271,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/nOniCiaqFCs?list=PLo6WmFbBTUez8dKbi7F78KtlcL_oDe-6v' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/ghana-kumasi-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Greece Athens Mission",
+            "x": 38.002648,
+            "y": 23.798605,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/sq15UUOgtsA?list=PLo6WmFbBTUezejio4dmwrO0Y-g-d94e-V' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/greece-athens-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Guatemala Coban Mission",
+            "x": 15.465059,
+            "y": -90.384253,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/guatemala-coban-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Guatemala Guatemala City Central Mission",
+            "x": 14.604959,
+            "y": -90.516313,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/4_PHF2teTdQ?list=PLo6WmFbBTUexAfQFHs2okCU7u809kqkk8' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/guatemala-guatemala-city-central-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Guatemala Quetzaltenango Mission",
+            "x": 14.844607,
+            "y": -91.523187,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/oxS4Jc-CdjA?list=PLo6WmFbBTUew5fOEjA5LGPn--Inrsg7BP' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/guatemala-quetzaltenango-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }
