@@ -14,81 +14,10 @@
         }
 
 
-    *******************************************************************************************************************************************************************************************************************************************************************
+*******************************************************************************************************************************************************************************************************************************************************************
 
 
-    // Guatemala Retalhuleu Mission
-    case 181:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Haiti Port-au-Prince Mission
-    case 182:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Hawaii Honolulu Mission
-    case 183:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Honduras Comayaguela Mission
-    case 184:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Honduras San Pedro Sula East Mission
-    case 185:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-
-    // Honduras Tegucigalpa Mission
-    case 187:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Hungary Budapest Mission
-    case 188:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Idaho Boise Mission
-    case 189:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Idaho Nampa Mission
-    case 190:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Idaho Pocatello Mission
-    case 191:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Idaho Twin Falls Mission
+ // Idaho Twin Falls Mission
     case 192:
         name = "";
         x = 0;
@@ -159,6 +88,12 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+
+
+*******************************************************************************************************************************************    
+    
+
     // Ivory Coast Abidjan Mission
     case 203:
         name = "";
@@ -230,6 +165,13 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+    
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
     // Kenya Nairobi Mission
     case 214:
         name = "";

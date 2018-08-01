@@ -1055,6 +1055,60 @@
             "x": 14.844607,
             "y": -91.523187,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/oxS4Jc-CdjA?list=PLo6WmFbBTUew5fOEjA5LGPn--Inrsg7BP' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/guatemala-quetzaltenango-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Guatemala Retalhuleu Mission",
+            "x": 14.703800,
+            "y": -91.865981,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/jDH-HHkt0_I?list=PLo6WmFbBTUexio-03PjwIyXeOkecYGzTC' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/guatemala-retalhuleu-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Haiti Port-au-Prince Mission",
+            "x": 18.513814,
+            "y": -72.288191,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/3sZOJBu-Lzc?list=PLo6WmFbBTUezlttjEj-ajhcU3Y9uYDFLG' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/haiti-port-au-prince-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Hawaii Honolulu Mission",
+            "x": 21.299696,
+            "y": -157.836811,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/evzzS6bKgGs?list=PLo6WmFbBTUezBjTbBmxtTY1ZLASP_GxxX' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/hawaii-honolulu-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Honduras Comayaguela Mission",
+            "x": 15.199999,
+            "y": -86.241905,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/CGXE5YNRHqY?list=PLo6WmFbBTUexmnexBrKSES_s15H5btwsf' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/honduras-comayaguela-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Honduras Tegucigalpa Mission",
+            "x": 14.072275,
+            "y": -87.192136,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/rFB5ndULuQM?list=PLo6WmFbBTUews351SeOQIrbQZy51t6g2O' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/honduras-tegucigalpa-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Hungary Budapest Mission",
+            "x": 47.504613,
+            "y": 19.022941,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/37xrrHBYeic?list=PLo6WmFbBTUeyFj-50brtdJAWbq-WNJo0U' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/hungary-budapest-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Idaho Boise Mission",
+            "x": 43.594422,
+            "y": -116.275158,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/RAlIfFRvYuQ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/idaho-boise-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Idaho Nampa Mission",
+            "x": 43.602781,
+            "y": -116.597741,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/DjhgJ5eb-Zg?list=PLo6WmFbBTUez184ABlUG_xP9g647qKYxO' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/idaho-nampa-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Idaho Pocatello Mission",
+            "x": 42.867268,
+            "y": -112.441331,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/oz9Z6-IodrM?list=PLo6WmFbBTUewEOckt6rxIQII4bocWfvU6' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/idaho-pocatello-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }
