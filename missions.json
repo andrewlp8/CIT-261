@@ -1109,6 +1109,66 @@
             "x": 42.867268,
             "y": -112.441331,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/oz9Z6-IodrM?list=PLo6WmFbBTUewEOckt6rxIQII4bocWfvU6' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/idaho-pocatello-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Idaho Twin Falls Mission ",
+            "x": 42.569379,
+            "y": -114.452937,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/idaho-twin-falls-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Illinois Chicago Mission",
+            "x": 42.069691,
+            "y": -87.800350,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/illinois-chicago-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Illinois Nauvoo Mission",
+            "x": 40.531042,
+            "y": -91.416570,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/fy5E5Rb6a3g?list=PLo6WmFbBTUezUbKUM5c5UwFr4iDhghf24' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/illinois-nauvoo-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "India Bangalore Mission",
+            "x": 12.987828,
+            "y": 77.700851,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/NP9Jxvzcnao?list=PLo6WmFbBTUew5k-PzKFU5ZYojYj524_XI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/india-bangalore-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "India New Delhi Mission",
+            "x": 28.560706,
+            "y": 77.159553,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/india-new-delhi-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Indiana Indianapolis Mission",
+            "x": 39.961557,
+            "y": -86.031389,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/7plr9REWnCE?list=PLo6WmFbBTUezIUpP-aX4CHRYs_0UImihW' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/indiana-indianapolis-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Indonesia Jakarta Mission",
+            "x": -6.229739,
+            "y": 106.806316,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/UcvCvC_VZHg?list=PLo6WmFbBTUeyG-JnR-N2EqUDLc4Ne84Oq' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/indonesia-jakarta-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Iowa Des Moines Mission",
+            "x": 41.629457,
+            "y": -93.735324,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/FtYA6NMDvg4?list=PLo6WmFbBTUexYLNVDb9speNEgU_vKiIxO' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/iowa-des-moines-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Italy Milan Mission",
+            "x": 45.373932,
+            "y": 9.209299,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/ILmUSG1qaLw?list=PLo6WmFbBTUezBMnHZJsan-lOBXfLgULSo' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/italy-milan-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Italy Rome Mission",
+            "x": 41.934140,
+            "y": 12.539680,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/b1VfOxLOwRM?list=PLo6WmFbBTUezS2oIwUPwGY0N_d5Wk5N4d' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/italy-rome-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }

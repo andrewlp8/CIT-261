@@ -409,3 +409,8 @@ text-align: center;
 #footerTitle {
     clear: left;
 }
+#weather{
+    background-color: rgba(74,161,243, 0.6);
+    margin: 20px auto;
+    max-width: 1000px;
+}

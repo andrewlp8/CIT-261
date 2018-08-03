@@ -17,81 +17,6 @@
 *******************************************************************************************************************************************************************************************************************************************************************
 
 
- // Idaho Twin Falls Mission
-    case 192:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Illinois Chicago Mission
-    case 193:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-
-    // Illinois Nauvoo Mission
-    case 195:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // India Bangalore Mission
-    case 196:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // India New Delhi Mission
-    case 197:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Indiana Indianapolis Mission
-    case 198:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Indonesia Jakarta Mission
-    case 199:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Iowa Des Moines Mission
-    case 200:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Italy Milan Mission
-    case 201:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Italy Rome Mission
-    case 202:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-
-
-
-*******************************************************************************************************************************************    
     
 
     // Ivory Coast Abidjan Mission
@@ -243,6 +168,13 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+    
+    
+    
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
     // Mexico Aguascalientes Mission
     case 225:
         name = "";
@@ -314,6 +246,14 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+
+
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+
+
+
     // Mexico Mexico City Mission
     case 236:
         name = "";
@@ -387,6 +327,11 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
     // Mexico Torreón Mission
     case 254:
         name = "";
@@ -457,6 +402,12 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
+   
     // Missouri St. Louis Mission
     case 264:
         name = "";
@@ -528,6 +479,13 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+    
+    
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
+    
     // New York New York North Mission
     case 276:
         name = "";
@@ -599,6 +557,12 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+    
+    
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
     // Nigeria Enugu Mission
     case 287:
         name = "";
@@ -669,6 +633,12 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
+   
     // Ohio Columbus Mission
     case 297:
         name = "";
@@ -741,6 +711,12 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
+   
     // Peru Arequipa Mission
     case 309:
         name = "";
@@ -813,6 +789,13 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
+   
+   
     // Philippines Baguio Mission
     case 324:
         name = "";
@@ -884,6 +867,13 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+    
+    
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
+    
     // Philippines Manila Mission
     case 335:
         name = "";
@@ -955,6 +945,14 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+   
+   
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
+   
     // Puerto Rico San Juan Mission
     case 346:
         name = "";
@@ -1025,6 +1023,13 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+    
+    
+    
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
     // Samoa Apia Mission
     case 356:
         name = "";
