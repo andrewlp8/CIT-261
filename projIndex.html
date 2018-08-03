@@ -4,6 +4,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <Title>LDS Mission Fishin'</Title>
+<link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
 <script src="load.js"></script>
 <script src="mainMen.js"></script>
 <script src="submitTag.js"></script>
@@ -21,7 +22,7 @@
 
 <!-- loading Screen for game menu div -->
 <div id="load_screen">
-    <div id="loading">LDS Mission Fishin'</div><br><br/>
+    <div id="loading" style="font-family: 'Shojumaru', cursive;">LDS Mission Fishin'</div><br><br/>
     <div class="loader"></div>
 </div>
    
@@ -41,7 +42,7 @@
         
     <!-- About Game-->
     <div class="floatAnimationVertical">
-        <button id="aboutBtn" onclick="aboutInfo(); clickSound();">About</button>
+        <button class="btn btn-secondary" id="aboutBtn" onclick="aboutInfo(); clickSound();">About</button>
     </div>
     <div id="about" class="modal">
         <div class="modalContent">
@@ -50,15 +51,16 @@
         </div>
     </div>
 
-    <h1 id="title">LDS Mission Fishin'</h1> 
+    <h1 id="title" style="font-family: 'Shojumaru', cursive;">LDS Mission Fishin'</h1> 
     
     <!-- Play -->    
     <div id="playBtn" onclick="play(); clickSound();"><span class="playPulse"><img id="playBtnImg" src="images/project/play.png"></span></div>
 
     <!-- Instructions -->
     <div class="floatAnimationHorizontal">
-        <button id="instructiontBtn" onclick="instructions(); clickSound();">How to Play</button>
+        <button class="btn btn-secondary" id="instructiontBtn" onclick="instructions(); clickSound();">How to Play</button>
     </div>
+    
     <div id="instructions" class="modal">
         <div class="modalContent">
             <span class="close">&times;</span><p class="modalText">How to Play the Game</p>
@@ -78,11 +80,11 @@
                     <span class="close">&times;</span>
             <div id="musicControl">
                 <p class="modalText">Backround Music ON/OFF</p>
-            <button onclick="musicON_OFF(); clickSound();">ON/OFF</button>
+            <button class="btn btn-light" onclick="musicON_OFF(); clickSound();">ON/OFF</button>
             <p class="modalText">Volume</p>
-            <button onclick="volumeHigh(); clickSound();">High</button>
-            <button onclick="volumeMedium(); clickSound();">Medium</button>
-            <button onclick="volumeLow(); clickSound();">Low</button>
+            <button class="btn btn-dark" onclick="volumeHigh(); clickSound();">High</button>
+            <button class="btn btn-dark" onclick="volumeMedium(); clickSound();">Medium</button>
+            <button class="btn btn-dark" onclick="volumeLow(); clickSound();">Low</button>
             </div>
         </div>
     </div>
@@ -114,7 +116,7 @@
                             <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
                             <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
                         </div>
-                        <button id="tagButton" onclick="submitTag(); clickSound(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
+                        <button id="tagButton" class="btn btn-outline-primary btn-block" onclick="submitTag(); clickSound(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
                     </form>
                         
                     </div>
