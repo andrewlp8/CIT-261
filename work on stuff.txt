@@ -16,159 +16,6 @@
 
 *******************************************************************************************************************************************************************************************************************************************************************
 
-
-    
-
-    // Ivory Coast Abidjan Mission
-    case 203:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Jamaica Kingston Mission
-    case 204:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Japan Fukuoka Mission
-    case 205:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Japan Kobe Mission
-    case 206:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Japan Nagoya Mission
-    case 207:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Japan Sapporo Mission
-    case 208:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Japan Sendai Mission
-    case 209:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Japan Tokyo Mission
-    case 210:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-
-    // Kansas Wichita Mission
-    case 212:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Kentucky Louisville Mission
-    case 213:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    
-    
-    
-*******************************************************************************************************************************************************************************************************************************************************************
-
-    
-    
-    // Kenya Nairobi Mission
-    case 214:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Korea Busan Mission
-    case 215:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Korea Daejeon Mission
-    case 216:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Korea Seoul Mission
-    case 217:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-
-    // Liberia Monrovia Mission
-    case 219:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Louisiana Baton Rouge Mission
-    case 220:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Madagascar Antananarivo Mission
-    case 221:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Marshall Islands Majuro Mission
-    case 222:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Maryland Baltimore Mission
-    case 223:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Massachusetts Boston Mission
-    case 224:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    
     
     
     *******************************************************************************************************************************************************************************************************************************************************************
@@ -1100,6 +947,16 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+
+
+            
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
+
     // Spain Málaga Mission
     case 366:
         name = "";
@@ -1171,6 +1028,15 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+        
+
+
+            
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
 
     // Texas Lubbock Mission
     case 378:
@@ -1242,6 +1108,15 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+
+            
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
+
     // Ukraine L’viv Mission
     case 388:
         name = "";
@@ -1316,6 +1191,15 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+
+            
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
+
     // Venezuela Barcelona Mission
     case 402:
         name = "";
@@ -1386,6 +1270,14 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+            
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
+
     // Washington Spokane Mission
     case 412:
         name = "";
@@ -1457,3 +1349,11 @@
         y = 0;
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
+
+            
+    
+    
+*******************************************************************************************************************************************************************************************************************************************************************
+
+    
+

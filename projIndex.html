@@ -93,37 +93,36 @@
 
 <!-- Name Tag Screen -->
 <div id="nameTagScreen">
-        <div class="wholeContainer">
-                <div class="flexContainer">
+    <div class="wholeContainer">
+        <div class="flexContainer">
+                                       
+            <div id="tagPointerContainer">
+                <p id="tagInfo">Enter your info here: </p>         
+                <div class="floatAnimationVertical" id="tagPointer">
+                    <img id="pointerIMG" src="images\project\cursor1.png">
+                </div>
+            </div>
+
+                
+        <div id="tagContainer">
                     
-                    
-                        <div id="tagPointerContainer">
-                                <p id="tagInfo">Enter your info here: </p>
-                                
-                                        <div class="floatAnimationVertical" id="tagPointer">
-                                <img src="images\project\cursor1.png" style="width: 50px;">
-                                </div>
-                            </div>
-            <div id="tagContainer">
-                    
-                <div id="blackTag1">
-                    <form class="formContent">
-                        <div id="genderDiv">
-                            <input id="gender" class="formContent" style="color: black;" type="radio" name="gender" value="Elder" checked> Elder             
-                            <input id="gender" class="formContent" type="radio" name="gender" value="Sister"> Sister
-                        </div>
-                        <div id="nameDiv">
-                            <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
-                            <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
-                        </div>
-                        <button id="tagButton" class="btn btn-outline-primary btn-block" onclick="submitTag(); clickSound(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
-                    </form>
-                        
+            <div id="blackTag1">
+                <form class="formContent">
+                    <div id="genderDiv">
+                        <input id="gender" class="formContent" style="color: black;" type="radio" name="gender" value="Elder" checked> Elder             
+                        <input id="gender" class="formContent" type="radio" name="gender" value="Sister"> Sister
                     </div>
+                    <div id="nameDiv">
+                        <input id="firstname" type="text" placeholder="first name: " name="firstname" class="formContent">
+                        <input id="lastname" type="text" placeholder="last name:  " name="lastname" class="formContent">
+                    </div>
+                    <button id="tagButton" class="btn btn-outline-primary btn-block" onclick="submitTag(); clickSound(); toGlobe();">Submit</button><!--onclick="return show(this.form)"" -->
+                </form>      
+            </div>
         </div>
         
-    </div>
         </div>
+    </div>
 </div>
     
 

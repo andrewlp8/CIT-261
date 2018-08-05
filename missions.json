@@ -1169,6 +1169,126 @@
             "x": 41.934140,
             "y": 12.539680,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/b1VfOxLOwRM?list=PLo6WmFbBTUezS2oIwUPwGY0N_d5Wk5N4d' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/italy-rome-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Ivory Coast Abidjan Mission",
+            "x": 5.357003,
+            "y": -3.981177,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/SrTV2uJZdBE?list=PLo6WmFbBTUeygUroblTvQOtdE6NXjcbFV' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/ivory-coast-abidjan-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Jamaica Kingston Mission",
+            "x": 18.011818,
+            "y": -76.786920,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/qxjQguqNgpo?list=PLo6WmFbBTUewc0_Upqod9vDtwmp3Os5bR' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/jamaica-kingston-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Japan Fukuoka Mission",
+            "x": 33.572596,
+            "y": 130.391624,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/nApb1SH0Q2I?list=PLo6WmFbBTUezKqJnyTVcHEOS4G8l7A5Xp' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/japan-fukuoka-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Japan Kobe Mission",
+            "x": 34.669291,
+            "y": 135.173444,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/BCCE4tZUQ64?list=PLo6WmFbBTUezkwjg1Y5UurAgQeBHqwUrx' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/japan-kobe-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Japan Nagoya Mission",
+            "x": 35.182960,
+            "y": 137.004173,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/3sOIFrV1JcY?list=PLo6WmFbBTUez7t60vN7_KlQXMiCMrCxrp' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/japan-nagoya-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Japan Sapporo Mission",
+            "x": 43.023276,
+            "y": 141.449200,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/iDDC-c6UoKM?list=PLo6WmFbBTUewJara1cf_31_jLTecC2nrT' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/japan-sapporo-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Japan Sendai Mission",
+            "x": 38.234079,
+            "y": 140.831621,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/japan-sendai-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Japan Tokyo Mission",
+            "x": 35.721742,
+            "y": 139.678809,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/zGJvS-XzRRA?list=PLo6WmFbBTUeyvUux2d6B03CY87hEAcXFD' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/japan-tokyo-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Kansas Wichita Mission",
+            "x": 37.707915,
+            "y": -97.255424,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/jz5HSSCBQVo?list=PLo6WmFbBTUewRQTnoI6oujMEmyawBh2Y1' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/kansas-wichita-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Kentucky Louisville Mission",
+            "x": 38.227015,
+            "y": -85.720184,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/1mBkX59bDgQ?list=PLo6WmFbBTUexFaqDJ5DXj7VlhpvR0yhHO' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/kentucky-louisville-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Kenya Nairobi Mission",
+            "x": -1.286695,
+            "y": 36.816937,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/8hoFy456p0Y?list=PLo6WmFbBTUew1G0d_LrEB3IUgPqaiZHou' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/kenya-nairobi-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Korea Busan Mission",
+            "x": 35.213228,
+            "y": 129.071399,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/zfvIlYFlykw?list=PLo6WmFbBTUex-S5YdqxH2znE2Bk5_6nv0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/korea-busan-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Korea Daejeon Mission",
+            "x": 36.350412,
+            "y": 127.384548,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/67xGdGuowAM?list=PLo6WmFbBTUez9G9nknbGitALx2iKRT1-V' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/korea-daejeon-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Korea Seoul Mission",
+            "x": 37.589742,
+            "y": 126.967253,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/7NzeVGiwDCM?list=PLo6WmFbBTUezKIrqSHsnaYcLl5zPk_32r' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/korea-seoul-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Liberia Monrovia Mission",
+            "x": 6.290743,
+            "y": -10.760524,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/FLZNDjlbM9o?list=PLo6WmFbBTUewiZ1WTbG085GoknQsKliAX' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/liberia-monrovia-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Louisiana Baton Rouge Mission",
+            "x": 30.415273,
+            "y": -91.051076,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Rhm5DgFkP0Y?list=PLo6WmFbBTUeye_HtjktBSHbMaEVQqG3pk' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/louisiana-baton-rouge-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Madagascar Antananarivo Mission",
+            "x": -18.879190,
+            "y": 47.507905,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/x5Bi66Z0Koo?list=PLo6WmFbBTUeyFYgsY_cXxR_8-xlU_gIq2' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/madagascar-antananarivo-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Marshall Islands Majuro Mission",
+            "x": 7.068209,
+            "y": 171.281541,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/J-4gQmBZhcE?list=PLo6WmFbBTUexEKC8JuamQzC-KFlYXC1G2' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/marshall-islands-majuro-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Maryland Baltimore Mission",
+            "x": 39.242282,
+            "y": -76.839101,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/ajVvcMecOB4?list=PLo6WmFbBTUezQ3I-OaeUPVVYen7KPDy42' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/maryland-baltimore-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Massachusetts Boston Mission",
+            "x": 42.282102,
+            "y": -71.381370,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/nUmx_l0c304?list=PLo6WmFbBTUezhmzWDHQC6OnC_hd6K_leW' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/massachusetts-boston-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }
