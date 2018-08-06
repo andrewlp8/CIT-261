@@ -1289,6 +1289,240 @@
             "x": 42.282102,
             "y": -71.381370,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/nUmx_l0c304?list=PLo6WmFbBTUezhmzWDHQC6OnC_hd6K_leW' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/massachusetts-boston-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Aguascalientes Mission",
+            "x": 21.941780,
+            "y": -102.298691,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/OtxxsCvbxXw?list=PLo6WmFbBTUewt8Nn7s4bqfU_ZAdUVnJoc' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-aguascalientes-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Cancun Mission",
+            "x": 21.151540,
+            "y": -86.866318,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/8RRTKO-RC9E?list=PLo6WmFbBTUewAk_hfBDotZ-Ik-poctqFd' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-cancun-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Chihuahua Mission",
+            "x": 28.664174,
+            "y": -106.119486,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-chihuahua-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Ciudad Juarez Mission",
+            "x": 31.692072,
+            "y": -106.422574,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-ciudad-juarez-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Ciudad Obregon Mission",
+            "x": 27.504165,
+            "y": -109.936663,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-ciudad-obregon-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Cuernavaca Mission",
+            "x": 18.914140,
+            "y": -99.231834,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/5EXXke0_Xl4?list=PLo6WmFbBTUeyyYIDP0_7THzA0o22_rl1r' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-cuernavaca-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Culiacán Mission",
+            "x": 24.796756,
+            "y": -107.387309,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Fsa0PJco-hE?list=PLo6WmFbBTUex4QiDSeg1A9C_aB21OcvYo' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-culiacan-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Guadalajara Mission",
+            "x": 20.620025,
+            "y": -103.403861,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/X4Qqav8OvnU?list=PLo6WmFbBTUewdBy6Cryc4u6E0T4gIfxtW' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-guadalajara-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Hermosillo Mission",
+            "x": 29.102565,
+            "y": -110.947823,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-hermosillo-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Mérida Mission",
+            "x": 20.964401,
+            "y": -89.630601,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Q1zvhhR_5rc?list=PLo6WmFbBTUez8JEeYi6V-OS_D7jUaE-aE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-merida-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Mexico City Mission",
+            "x": 19.466042,
+            "y": -99.086889,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/y2Q_hn_16aQ?list=PLo6WmFbBTUexN7PruiXUigxBOZ6NvWuoK' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-mexico-city-east-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Oaxaca Mission",
+            "x": 17.052409,
+            "y": -96.716267,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-oaxaca-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Pachuca Mission",
+            "x": 20.063043,
+            "y": -98.777435,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-pachuca-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Puebla North Mission",
+            "x": 19.050097,
+            "y": -98.218906,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/u6z2zmpIUFI?list=PLo6WmFbBTUez5O5XOlsmbU10YmZxhH808' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-puebla-north-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Queretaro Mission",
+            "x": 20.623034,
+            "y": -100.406054    ,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/ziU8uHzudSw?list=PLo6WmFbBTUeyWPwmUwJlWhibhN6uN0zh3' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-queretaro-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Reynosa Mission",
+            "x": 26.067120,
+            "y": -98.303824,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-reynosa-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Saltillo Mission",
+            "x": 25.439514,
+            "y": -100.959297,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-saltillo-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Tampico Mission",
+            "x": 22.248361,
+            "y": -97.869673,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/XSLMO48XfZE?list=PLo6WmFbBTUez61rbUoCJRsMB59fgJRCCq' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-tampico-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Tijuana Mission",
+            "x": 32.513810,
+            "y": -117.010103,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/mexico-tijuana-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Mexico Torreón Mission",
+            "x": 25.550780,
+            "y": -103.455864,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/-4T_rkhqF6o?list=PLo6WmFbBTUewHdk6arb4Bz7i3pwmxf9K3' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-torreon-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Tuxtla Gutierrez Mission",
+            "x": 16.732222,
+            "y": -93.135309,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/JhBPaMV_Ftw?list=PLo6WmFbBTUezO4An2_6zVD2nQ_qSrWeSz' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-tuxtla-gutierrez-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Veracruz Mission",
+            "x": 19.189537,
+            "y": -96.139444,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/REhkVp-ZTlY?list=PLo6WmFbBTUex1HZdCuUDNHXwytFPmXlZq' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-veracruz-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mexico Villahermosa Mission",
+            "x": 17.978077,
+            "y": -92.941507,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/jx4G_IPS2Ao?list=PLo6WmFbBTUeyiLuujT7_HIpbzTQrZz7OL' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mexico-villahermosa-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Michigan Detroit Mission",
+            "x": 42.458176,
+            "y": -83.269416,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/PAkuDKO8tY8?list=PLo6WmFbBTUewOUmc74ySZKabFSaXtF4Ki' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/michigan-detroit-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Michigan Lansing Mission",
+            "x": 42.724124,
+            "y": -84.461648,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/CyimPkv-m4g?list=PLo6WmFbBTUeyG2KXcHRfBkfM6acV7s9FP' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/michigan-lansing-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Micronesia Guam Mission",
+            "x": 13.475765,
+            "y": 144.770659,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/awjxrm6Gln8?list=PLo6WmFbBTUex4bf2GMY2EwRMH8zoZYyUA' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/micronesia-guam-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Minnesota Minneapolis Mission",
+            "x": 44.829483,
+            "y": -93.359442,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/uIhrpg9kgv4?list=PLo6WmFbBTUezTFuXBFkILPXGQDX60k2ii' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/minnesota-minneapolis-mission/'>Click to Learn More</a><br><br/>"
+        }, 
+        {
+            "name": "Mississippi Jackson Mission",
+            "x": 32.292055,
+            "y": -90.035066,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Cpae02k9Ztc?list=PLo6WmFbBTUezaSxHGmoCOecm5OdZVan0f' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mississippi-jackson-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Missouri Independence Mission",
+            "x": 39.089859,
+            "y": -94.422751,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/-_uApt73daY?list=PLo6WmFbBTUewjVOH_VAQfUX-Zsu8KTwPi' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/missouri-independence-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Missouri St. Louis Mission",
+            "x": 38.693035,
+            "y": -90.446686,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/GEC3vM2tfYI?list=PLo6WmFbBTUezWJ6rZo0l_0AlP_42QS85e' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/missouri-st-louis-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mongolia Ulaanbaatar Mission",
+            "x": 47.922060,
+            "y": 106.933556,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/qVYwS8EIgWc?list=PLo6WmFbBTUewwiWJPqO_ThSxkyCtY4Zw-' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mongolia-ulaanbaatar-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Montana Billings Mission",
+            "x": 45.798303,
+            "y": -108.563794,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/I_rSDWRcogg?list=PLo6WmFbBTUew8QIHZkBrqiDiAZ4GvC9ZQ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/montana-billings-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Mozambique Maputo Mission",
+            "x": -25.923765,
+            "y": 32.584364,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/uhTGhuuZOgs?list=PLo6WmFbBTUeyzb2l_IO0dm9SAhg86HLz2' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/mozambique-maputo-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Nebraska Omaha Mission",
+            "x": 41.237501,
+            "y": -96.083786,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/uOQGDSC9JYQ?list=PLo6WmFbBTUew68KQOYRL4bX_1aIm0MzQJ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/nebraska-omaha-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Nevada Las Vegas Mission",
+            "x": 36.021140,
+            "y": -115.135647,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/kK6OS2IzrLk?list=PLo6WmFbBTUeziCqCUkEfC1Nf1VVRIvVOt' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/nevada-las-vegas-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "New Hampshire Manchester Mission",
+            "x": 43.006525,
+            "y": -71.419593,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/O5cZ5XOncV0?list=PLo6WmFbBTUezBn2ubM5hFxNb7Ttw4gKZN' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-hampshire-manchester-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "New Jersey Morristown Mission",
+            "x": 40.781765,
+            "y": -74.585322,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/jqaZguHoFmw?list=PLo6WmFbBTUezuEqctNX52LI54vy6XTLD0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-jersey-morristown-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "New Mexico Albuquerque Mission",
+            "x": 35.153708,
+            "y": -106.591832,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/90CthwvFJs0?list=PLo6WmFbBTUexJo_KXnUgIV_8J_ay7om7u' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-mexico-albuquerque-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "New Mexico Farmington Mission",
+            "x": 36.734409,
+            "y": -108.210005,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/BE4-J7SNpv0?list=PLo6WmFbBTUex8iyydL05GPbYJTtJhnBZL' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-mexico-farmington-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }
