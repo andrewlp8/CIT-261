@@ -5,17 +5,94 @@
             "y": ,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href=''>Click to Learn More</a><br><br/>"
         }
-    // without video
+// without video
         {
             "name": "",
             "x": ,
             "y": ,
             "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href=''>Click to Learn More</a>"
-        }
+        }   
 
 
 *******************************************************************************************************************************************************************************************************************************************************************
 
+<<<<<<< HEAD
+=======
+    
+    
+    // New York New York North Mission
+     {
+            "name": "",
+            "x": ,
+            "y": ,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href=''>Click to Learn More</a><br><br/>"
+        }
+
+
+    // New Zealand Hamilton Mission
+    case 281:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+
+    // Nicaragua Managua Mission
+    case 283:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+
+    // Nigeria Benin City Mission
+    case 285:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+    
+    
+    *******************************************************************************************************************************************************************************************************************************************************************
+
+    
+    
+    // North Carolina Charlotte Mission
+    case 291:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+    // North Carolina Raleigh Mission
+    case 292:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+    // North Dakota Bismarck Mission
+    case 293:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+    // Norway Oslo Mission
+    case 294:
+        name = "";
+        x = 0;
+        y = 0;
+        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
+        break;
+   
+   
+   *******************************************************************************************************************************************************************************************************************************************************************
+
+   
+   
+>>>>>>> 20b803eb74d17d162813e314b386d56c27daa8e2
     // Ohio Columbus Mission
     case 297:
         name = "";
@@ -468,7 +545,7 @@
             
     
     
-*******************************************************************************************************************************************************************************************************************************************************************
+****    ***************************************************************************************************************************************************************************************************************************************************************
 
     
 
@@ -503,76 +580,33 @@
         info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
         break;
 
-    // Washington Seattle Mission
-    case 411:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
+    // 
+    {
+            "name": "Washington Seattle Mission",
+            "x": 47.628147,
+            "y": -122.197850,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/G4YIhIN2r74' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/washington-seattle-mission/'>Click to Learn More</a><br><br/>"
+        }
 
-            
-    
-    
 *******************************************************************************************************************************************************************************************************************************************************************
 
 
-    // Washington Vancouver Mission
-    case 414:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
+// with video template
+        {
+            "name": "",
+            "x": ,
+            "y": ,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href=''>Click to Learn More</a><br><br/>"
+        }
+// without video
+        {
+            "name": "",
+            "x": ,
+            "y": ,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href=''>Click to Learn More</a>"
+        }   
 
-    // Washington, D.C. Mission
-    case 416:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
 
-    // West Indies Mission
-    case 418:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // West Virginia Charleston Mission
-    case 419:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Wisconsin Milwaukee Mission
-    case 420:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Zambia Lusaka Mission
-    case 421:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-    // Zimbabwe Harare Mission
-    case 422:
-        name = "";
-        x = 0;
-        y = 0;
-        info = '<div class="embed-container"> </div><br><a target="_blank" href="">Click to Learn More</a>';
-        break;
-
-            
-    
-    
 *******************************************************************************************************************************************************************************************************************************************************************
-
-    
+   
 
