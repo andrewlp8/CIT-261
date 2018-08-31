@@ -1523,6 +1523,48 @@
             "x": 36.734409,
             "y": -108.210005,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/BE4-J7SNpv0?list=PLo6WmFbBTUex8iyydL05GPbYJTtJhnBZL' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-mexico-farmington-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "New York New York North Mission",
+            "x": 40.970980,
+            "y": -73.804760,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Tdv9vo3Q6uY?list=PLo6WmFbBTUey5dsdS_KjHrTfeaSvs0exN' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-york-new-york-north-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "New Zealand Hamilton Mission",
+            "x": -37.788100,
+            "y": 175.277000,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-zealand-hamilton-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Nigeria Benin City Mission",
+            "x": 6.447260,
+            "y": 5.797580,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/nigeria-benin-city-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "North Carolina Charlotte Mission",
+            "x": 35.233030,
+            "y": -80.776290,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/RCPMZbXlkgg?list=PLo6WmFbBTUezPxcXSyvZFZd7RxOGNYIO2' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/north-carolina-charlotte-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "North Carolina Raleigh Mission",
+            "x": 35.850780,
+            "y": -78.642760,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/fHO6q3maC1M?list=PLo6WmFbBTUewZ2-t8NGWi4S9pDM8ykI63' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/north-carolina-raleigh-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "North Dakota Bismarck Mission",
+            "x": 46.855680,
+            "y": -100.792920,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/north-dakota-bismarck-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Norway Oslo Mission",
+            "x": 20.726740,
+            "y": -103.340210,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/_ufB-KDWp9I?list=PLo6WmFbBTUexwhY7QPyWNKM2xZOT0LAEw' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/norway-oslo-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }
