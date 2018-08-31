@@ -1523,6 +1523,48 @@
             "x": 36.734409,
             "y": -108.210005,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/BE4-J7SNpv0?list=PLo6WmFbBTUex8iyydL05GPbYJTtJhnBZL' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-mexico-farmington-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Washington Vancouver Mission",
+            "x": 45.692090,
+            "y": -122.694710,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/19PzS5_98GU' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/washington-vancouver-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Washington, D.C. Mission",
+            "x": 39.046860,
+            "y": -77.191120,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/FLwNbVkdw9Q?list=PLo6WmFbBTUeyHMn7s95NqqAAbyvvQkBWA' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/washington-dc-north-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "West Indies Mission",
+            "x": 10.657820,
+            "y": -61.516710,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Fx_Kb_2n4dA?list=PLo6WmFbBTUeyBpcodINPai61fVXrF0ppO' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/west-indies-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "West Virginia Charleston Mission",
+            "x": 38.342410,
+            "y": -81.663340,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/Otqs6HfPEOQ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/west-virginia-charleston-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Wisconsin Milwaukee Mission",
+            "x": 42.951750,
+            "y": -88.002430,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/6-CvHoiRCnk' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='Wisconsin Milwaukee Mission'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Zambia Lusaka Mission",
+            "x": -15.386560,
+            "y": 28.295920,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/7kJ4nzSb2gk' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/zambia-lusaka-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Zimbabwe Harare Mission",
+            "x": -17.797210,
+            "y": 31.097830,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/vIY8qwBS7gE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/zimbabwe-harare-mission/'>Click to Learn More</a><br><br/>"
         }
     ]
 }
