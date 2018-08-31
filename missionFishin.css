@@ -143,16 +143,16 @@ div.loader {
 /* Main Title */
 #title {
 font-size: 2em;
-margin: 30px auto;
+margin: 0 auto;
 text-align: center;
 }
 /* About Button */
 #aboutBtn {
-    margin: 30px auto;
+    margin: 0 auto;
     align-self: flex-start;
 }
 #instructiontBtn {
-    margin: 20px auto 5px;
+    margin: 0 auto;
     align-self: flex-end;
 
 }
@@ -186,7 +186,7 @@ text-align: center;
     }
   }
 #playBtn {
-    margin: 20px auto;
+    margin: 0 auto;
     align-self: center;
 }
 #playBtnImg:hover {
