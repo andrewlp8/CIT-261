@@ -1525,7 +1525,6 @@
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/BE4-J7SNpv0?list=PLo6WmFbBTUex8iyydL05GPbYJTtJhnBZL' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/new-mexico-farmington-mission/'>Click to Learn More</a><br><br/>"
         },
         {
-<<<<<<< HEAD
             "name": "New York New York North Mission",
             "x": 40.970980,
             "y": -73.804760,
@@ -1566,7 +1565,254 @@
             "x": 20.726740,
             "y": -103.340210,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/_ufB-KDWp9I?list=PLo6WmFbBTUexwhY7QPyWNKM2xZOT0LAEw' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/norway-oslo-mission/'>Click to Learn More</a><br><br/>"
-=======
+        },
+        {
+            "name": "Ohio Columbus Mission",
+            "x": 39.961176,
+            "y": -82.998794,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/ohio-columbus-mission'>Click to Learn More</a>"
+        },
+        {
+            "name": "Oklahoma Oklahoma City Mission",
+            "x": 35.467560,
+            "y": -97.516428,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/oklahoma-oklahoma-city-mission'>Click to Learn More</a>"
+        },
+        {
+            "name": "Oregon Eugene Mission",
+            "x": 44.052069,
+            "y": -123.086754,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/oregon-eugene-mission'>Click to Learn More</a>"
+        },
+        {
+            "name": "Oregon Portland Mission",
+            "x": 45.512231,
+            "y": -122.658719,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/oregon-portland-mission'>Click to Learn More</a>"
+        },
+        {
+            "name": "Panama Panama City Mission",
+            "x": 8.982379,
+            "y": -79.519870,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/panama-panama-city-mission'>Click to Learn More</a>"
+        },   
+        {
+            "name": "Papua New Guinea Lae Mission",
+            "x": -6.715525,
+            "y": 146.999905,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/papua-new-guinea-lae-mission'>Click to Learn More</a>"
+        },
+        {
+            "name": "Paraguay Asunción Mission",
+            "x": -25.263740,
+            "y": -57.575926,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/paraguay-asuncion-mission'>Click to Learn More</a>"
+        }, 
+        {
+            "name": "Pennsylvania Pittsburgh Mission",
+            "x": 40.319431,
+            "y": -80.115028,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/olx_9vPXm2E?list=PLo6WmFbBTUezAXDcOuThEvuwVKD6vX2ni' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/pennsylvania-pittsburgh-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Peru Cusco Mission",
+            "x": -13.531950,
+            "y": -71.967463,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/CsXAr4fpzfo?list=PLo6WmFbBTUewGHZHKjwvuFCOlY-m6eIcm' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/peru-cusco-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Philippines Angeles Mission",
+            "x": 15.494923,
+            "y": 120.595508,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/FByCCECJHEk?list=PLo6WmFbBTUex5TA3b2GoMTBzC0Kc4mZ4Z' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/philippines-angeles-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Poland Warsaw Mission",
+            "x": 52.201497,
+            "y": 21.000671,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/aO8bEd859ls?list=PLo6WmFbBTUezsUTF5AwqLmHmVUwL1JnMd' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/poland-warsaw-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Portugal Lisbon Mission",
+            "x": 40.772,
+            "y": -80.7681,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/qnD3UR6IFGU?list=PLo6WmFbBTUew2LicAkhHyWREcvO_hINRu' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/portugal-lisbon-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Puerto Rico San Juan Mission",
+            "x": 51.133481,
+            "y": 10.018343,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/dxN_SBTgwb0?list=PLo6WmFbBTUexVyTlKaJ4NYzJyybTVji9C' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/puerto-rico-san-juan-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Republic of Congo Brazzaville Mission",
+            "x": 49.168950,
+            "y": 6.721200,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/GkXxTNPWlkk?list=PLo6WmFbBTUezoI7QzQQYyromFm9Urh64X' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/republic-of-congo-brazzaville-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Romania / Moldova Mission",
+            "x": 44.432680,
+            "y": 26.200580,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/no1cINX4DXc?list=PLo6WmFbBTUezw6oy1AacRZKzreRZQaCkR' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/romania-moldova-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Russia Moscow Mission",
+            "x": 55.862080,
+            "y": 37.535060,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/7zhuv0vqJxk?list=PLo6WmFbBTUey4nADItXpg745Ls08KaruD' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/russia-moscow-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Samoa Apia Mission",
+            "x": 61.168710,
+            "y": -149.836360,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/kpqRiCAvhdU?list=PLo6WmFbBTUey9VFbuRL_SrNK3mGuFMx10' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/samoa-apia-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Scotland/Ireland Mission",
+            "x": 55.931510,
+            "y": -3.222230,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/hdYvngOdSZQ?list=PLo6WmFbBTUeyno3PQ5ADRAP3HnkhEK0Y5' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/scotland-ireland-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Singapore Mission",
+            "x": 1.314830,
+            "y": 103.836670,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/p7MaJf6YY-k?list=PLo6WmFbBTUexuNOMQY3Tvpr06F-mLlum5' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/singapore-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "South Africa Cape Town Mission",
+            "x": -33.936190,
+            "y": 18.477540,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/south-africa-cape-town-mission/'>Click to Learn More</a>"
+        },   
+        {
+            "name": "South Carolina Columbia Mission",
+            "x": 34.089820,
+            "y": -81.177890,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/t6zYcoK7JkM?list=PLo6WmFbBTUeyyB2KhM4LLid_0fhlQ5iqZ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/south-carolina-columbia-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Spain Barcelona Mission",
+            "x": 41.398690,
+            "y": 2.131580,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/sTouXXEYyIY?list=PLo6WmFbBTUeyr0k_bnpUvbXPI6qQc3tyA' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/spain-barcelona-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Sweden Stockholm Mission",
+            "x": 59.430590,
+            "y": 18.040780,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/JqwyjlkOVow?list=PLo6WmFbBTUeykOVf6weyQWjnKm0dSMiZj' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/sweden-stockholm-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Tahiti Papeete Mission",
+            "x": 45.479121,
+            "y": -73.621185,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/tahiti-papeete-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Taiwan Taichung Mission",
+            "x": 24.136350,
+            "y": 120.608840,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/taiwan-taichung-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Tennessee Nashville Mission",
+            "x": 35.965950,
+            "y": -86.691540,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/tennessee-nashville-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Texas Dallas Mission",
+            "x": 32.935650,
+            "y": -96.814480,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/texas-dallas-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Thailand Bangkok Mission",
+            "x": 13.749650,
+            "y": 100.562691,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/thailand-bangkok-mission/'>Click to Learn More</a>"
+        },    
+        {
+            "name": "Tonga Nukuʻalofa Mission",
+            "x": -21.136010,
+            "y": -175.216430,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/tonga-nukualofa-mission/'>Click to Learn More</a>"
+        },   
+        {
+            "name": "Uganda Kampala Mission",
+            "x": 0.320210,
+            "y": 32.602810,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/uganda-kampala-mission/'>Click to Learn More</a>"
+        }, 
+        {
+            "name": "Utah Ogden Mission",
+            "x": 41.182935,
+            "y": -111.963521,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/utah-ogden-mission/'>Click to Learn More</a>"
+        },   
+        {
+            "name": "Utah Orem Mission",
+            "x": 40.336228,
+            "y": -111.730216,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/E1D1DECKSB4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/utah-orem-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Utah Provo Mission",
+            "x": 40.234847,
+            "y": -111.648629,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/2M71FYEXUSg' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/utah-provo-mission/'>Click to Learn More</a><br><br/>"
+        },       
+        {
+            "name": "Utah Salt Lake City Mission",
+            "x": 40.736141,
+            "y": -111.886342,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/QKTmBYKGD-Q' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/utah-salt-lake-city-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Utah Salt Lake City Temple Square Mission",
+            "x": 40.770423,
+            "y": -111.891234,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/FLXNUc8OZIg' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/utah-salt-lake-city-temple-square-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Utah St. George Mission",
+            "x": 37.092742,
+            "y": -113.556382,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/gDbrHTXOzIU' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/utah-st-george-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Venezuela Barcelona Mission",
+            "x": 10.179694,
+            "y": -64.678144,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/venezuela-barcelona-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Venezuela Valencia Mission",
+            "x": 10.207174,
+            "y": -68.005646,
+            "info": "<br><br/><div class='container3' style='text-align: left;'><h3>More info coming soon!</h3><ol><li></li><li></li><li></li><li></li></ol></div><br><a target='_blank' href='http://lifey.org/venezuela-valencia-mission/'>Click to Learn More</a>"
+        },
+        {
+            "name": "Virginia Richmond Mission",
+            "x": 37.497854,
+            "y": -77.571298,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/gfVDoF6ih7E' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/virginia-richmond-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Washington Everett Mission",
+            "x": 47.860096,
+            "y": -122.204300,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/oAeFyO94RZA' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/washington-everett-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
+            "name": "Washington Seattle Mission",
+            "x": 47.628147,
+            "y": -122.197850,
+            "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/G4YIhIN2r74' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/washington-seattle-mission/'>Click to Learn More</a><br><br/>"
+        },
+        {
             "name": "Washington Vancouver Mission",
             "x": 45.692090,
             "y": -122.694710,
@@ -1607,7 +1853,6 @@
             "x": -17.797210,
             "y": 31.097830,
             "info": "<div class='embed-container'><iframe width='854' height='480' src='https://www.youtube.com/embed/vIY8qwBS7gE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div><br><a target='_blank' href='http://lifey.org/zimbabwe-harare-mission/'>Click to Learn More</a><br><br/>"
->>>>>>> 20b803eb74d17d162813e314b386d56c27daa8e2
         }
     ]
 }
