@@ -70,6 +70,46 @@ div.loader {
     bottom: 0;
     z-index: 2;
 }
+
+.btn {
+	-moz-box-shadow: 5px 4px 10px 2px #9fb4f2;
+	-webkit-box-shadow: 5px 4px 10px 2px #9fb4f2;
+	box-shadow: 5px 4px 10px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	padding:12px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
 /* Floatin Buttons */
     /* up n down */
 .floatAnimationVertical {  
@@ -110,12 +150,10 @@ text-align: center;
 #aboutBtn {
     margin: 30px auto;
     align-self: flex-start;
-    font-size: 2em;
 }
 #instructiontBtn {
     margin: 20px auto 5px;
     align-self: flex-end;
-    font-size: 2em;
 
 }
 /* The Play Button */
@@ -125,7 +163,7 @@ text-align: center;
     height: 120px;
     border-radius: 50%;
     box-shadow: 0 0 0 rgba(18,71,1, 0.4);
-    animation: playPulse 1.5s infinite;
+    animation: playPulse 2s infinite;
 
   }
   .pulse:hover {
@@ -134,9 +172,11 @@ text-align: center;
   @keyframes playPulse {
     0% {
       box-shadow: 0 0 0 0 rgba(18,71,1, 0.4);
+      transform: scale(1);
     }
     30% {
         box-shadow: 0 0 0 10px rgba(18,71,1, 0.1);
+        transform: scale(1.2);
     }
     75% {
         box-shadow: 0 0 0 10px rgba(18,71,1, 0);
@@ -341,7 +381,7 @@ text-align: center;
     text-align: center;
     margin-top: -25px;
     font-family: 'Playfair Display', serif;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 #tagName {
     margin: 0 auto 3em;
@@ -403,8 +443,6 @@ text-align: center;
 }
 #playAgainBtn {
     float: right;
-    width: 6em;
-    height: 3em;
     transition: all .2s ease-in-out;
 }
 #playAgainBtn:hover {
@@ -413,8 +451,4 @@ text-align: center;
 #footerTitle {
     clear: left;
 }
-#weather{
-    background-color: rgba(74,161,243, 0.6);
-    margin: 20px auto;
-    max-width: 1000px;
-}
+
